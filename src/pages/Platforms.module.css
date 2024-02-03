@@ -1,0 +1,2144 @@
+@keyframes shadow-drop-bottom {
+  0% {
+    box-shadow: 0 0 0 0 transparent;
+  }
+  to {
+    box-shadow: 0 12px 20px -12px rgb(0 0 0/35%);
+  }
+}
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+    transform-origin: center center;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    transform: scale(0.91);
+    animation-timing-function: ease-in;
+  }
+  17% {
+    transform: scale(0.98);
+    animation-timing-function: ease-out;
+  }
+  33% {
+    transform: scale(0.87);
+    animation-timing-function: ease-in;
+  }
+  45% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+}
+.logoIcon {
+  max-height: 100%;
+  width: 372.9px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.topMenuChild {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  background-color: var(--color-gainsboro-200);
+  transform: rotate(-0.33deg);
+  transform-origin: 0 0;
+}
+.phoneCallIconsvg {
+  position: relative;
+  width: 25.1px;
+  height: 25.1px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.navBusiness {
+  position: relative;
+  line-height: 24px;
+  width: 126px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.navBusiness,
+.signIn,
+.signIn1,
+.whatsapp {
+  display: flex;
+  align-items: center;
+}
+.whatsapp {
+  width: 161px;
+  height: 25px;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  cursor: pointer;
+}
+.signIn,
+.signIn1 {
+  flex-shrink: 0;
+}
+.signIn1 {
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 30px;
+  font-family: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+  );
+  color: var(--color-midnightblue-400);
+  text-align: center;
+  justify-content: center;
+  width: 53.3px;
+  height: 19px;
+}
+.signIn {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xs) var(--padding-0);
+  background-color: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-golden-dream
+  );
+  border-radius: var(--br-8xs);
+  box-shadow: 0 0 5px 2px #d8c72c;
+  width: 92.7px;
+  height: 36px;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.signIn:active,
+.signIn:hover,
+.signUp:active,
+.signUp:hover {
+  animation: 1s ease 0s infinite normal none shadow-drop-bottom;
+  opacity: 1;
+}
+.signUp1 {
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 30px;
+  font-family: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+  );
+  color: var(--bitbetwin-cc-account-1920x1080-default-nero);
+  text-align: center;
+  justify-content: center;
+  width: 60.1px;
+  height: 19px;
+  flex-shrink: 0;
+}
+.signInParent,
+.signUp,
+.signUp1,
+.user {
+  display: flex;
+  align-items: center;
+}
+.signUp {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xs) var(--padding-0);
+  background-color: var(--color-midnightblue-100);
+  border-radius: var(--br-8xs);
+  box-shadow: 0 0 10px 2px #6d04ee;
+  width: 92.7px;
+  height: 36px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.signInParent,
+.user {
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: var(--gap-9xl);
+}
+.user {
+  flex: 1;
+}
+.svgviewerPngOutput21 {
+  position: absolute;
+  top: 16.9px;
+  left: 16.3px;
+  width: 38px;
+  height: 38px;
+  object-fit: cover;
+  display: none;
+}
+.svgviewerPngOutput1Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 51px;
+  object-fit: cover;
+}
+.frame {
+  position: absolute;
+  top: 8.9px;
+  left: 9.3px;
+  width: 50px;
+  height: 50.7px;
+  overflow: hidden;
+}
+.frameChild {
+  position: relative;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-midnightblue-300);
+  box-shadow: 0 0 7px rgba(255, 255, 255, 0.51);
+  border: 1px solid var(--color-midnightblue-200);
+  box-sizing: border-box;
+  width: 283px;
+  height: 511px;
+  z-index: 0;
+}
+.games,
+.signInGroup {
+  margin: 0 !important;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  transform-origin: 0 0;
+}
+.signInGroup {
+  height: 6.42%;
+  width: 75.37%;
+  top: 4.93%;
+  right: 13.43%;
+  bottom: 88.65%;
+  left: 11.2%;
+  justify-content: flex-end;
+  gap: var(--gap-9xl);
+  transform: rotate(-0.76deg);
+  z-index: 1;
+}
+.games {
+  cursor: pointer;
+  border: 1px solid
+    var(--bitbetwin-cc-account-1920x1080-default-electric-violet);
+  padding: var(--padding-2xs) var(--padding-12xl);
+  background-color: var(
+    --bitbetwin-cc-account-1920x1080-default-linear-hollywood-cerise-kingfisher-daisy
+  );
+  height: 9.69%;
+  width: 85.41%;
+  top: 14.97%;
+  right: 6.78%;
+  bottom: 75.34%;
+  left: 7.81%;
+  border-radius: var(--br-8xs);
+  background: linear-gradient(90deg, rgba(21, 7, 73, 0.99), #4c0358);
+  box-shadow: 0 0 8px #8c8e91;
+  box-sizing: border-box;
+  justify-content: center;
+  transform: rotate(-0.09deg);
+  z-index: 2;
+}
+.games2:hover,
+.games3:hover,
+.games4:hover,
+.games5:hover,
+.games6:hover,
+.games7:hover,
+.games:hover {
+  animation: 1s ease 0s 1 normal none shadow-drop-bottom;
+  opacity: 1;
+}
+.promotions {
+  position: relative;
+  font-size: var(--font-size-3xl);
+  line-height: 33px;
+  font-family: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+  );
+  color: var(--bitbetwin-cc-account-1920x1080-default-nero);
+  text-align: left;
+}
+.games2 {
+  cursor: pointer;
+  border: 1px solid
+    var(--bitbetwin-cc-account-1920x1080-default-electric-violet);
+  padding: var(--padding-2xs) var(--padding-12xl);
+  background-color: var(
+    --bitbetwin-cc-account-1920x1080-default-linear-hollywood-cerise-kingfisher-daisy
+  );
+  margin: 0 !important;
+  height: 9.69%;
+  width: 85.41%;
+  top: 26.99%;
+  right: 6.71%;
+  bottom: 63.33%;
+  left: 7.88%;
+  border-radius: var(--br-8xs);
+  background: linear-gradient(90deg, rgba(21, 7, 73, 0.99), #4c0358);
+  box-shadow: 0 0 8px #8c8e91;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(-0.09deg);
+  z-index: 3;
+}
+.games2,
+.games3,
+.games4 {
+  position: absolute;
+  transform-origin: 0 0;
+}
+.games3 {
+  cursor: pointer;
+  border: 1px solid
+    var(--bitbetwin-cc-account-1920x1080-default-electric-violet);
+  padding: var(--padding-2xs) var(--padding-12xl);
+  background-color: var(
+    --bitbetwin-cc-account-1920x1080-default-linear-hollywood-cerise-kingfisher-daisy
+  );
+  margin: 0 !important;
+  height: 9.69%;
+  width: 85.41%;
+  top: 38.98%;
+  right: 6.61%;
+  bottom: 51.33%;
+  left: 7.99%;
+  border-radius: var(--br-8xs);
+  background: linear-gradient(90deg, rgba(21, 7, 73, 0.99), #4c0358);
+  box-shadow: 0 0 8px #8c8e91;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(-0.09deg);
+  z-index: 4;
+}
+.games4 {
+  top: 50.98%;
+  right: 6.54%;
+  bottom: 39.33%;
+  left: 8.06%;
+  z-index: 5;
+}
+.games4,
+.games5,
+.games6 {
+  cursor: pointer;
+  border: 1px solid
+    var(--bitbetwin-cc-account-1920x1080-default-electric-violet);
+  padding: var(--padding-2xs) var(--padding-12xl);
+  background-color: var(
+    --bitbetwin-cc-account-1920x1080-default-linear-hollywood-cerise-kingfisher-daisy
+  );
+  margin: 0 !important;
+  height: 9.69%;
+  width: 85.41%;
+  border-radius: var(--br-8xs);
+  background: linear-gradient(90deg, rgba(21, 7, 73, 0.99), #4c0358);
+  box-shadow: 0 0 8px #8c8e91;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(-0.09deg);
+}
+.games5 {
+  position: absolute;
+  top: 62.97%;
+  right: 6.47%;
+  bottom: 27.34%;
+  left: 8.13%;
+  transform-origin: 0 0;
+  z-index: 6;
+}
+.games6 {
+  top: 74.97%;
+  right: 6.36%;
+  bottom: 15.34%;
+  left: 8.23%;
+  z-index: 7;
+}
+.games6,
+.games7,
+.rectangleParent {
+  position: absolute;
+  transform-origin: 0 0;
+}
+.games7 {
+  cursor: pointer;
+  border: 1px solid
+    var(--bitbetwin-cc-account-1920x1080-default-electric-violet);
+  padding: var(--padding-2xs) var(--padding-12xl);
+  background-color: var(
+    --bitbetwin-cc-account-1920x1080-default-linear-hollywood-cerise-kingfisher-daisy
+  );
+  margin: 0 !important;
+  height: 9.69%;
+  width: 85.41%;
+  top: 86.99%;
+  right: 6.29%;
+  bottom: 3.33%;
+  left: 8.3%;
+  border-radius: var(--br-8xs);
+  background: linear-gradient(90deg, rgba(21, 7, 73, 0.99), #4c0358);
+  box-shadow: 0 0 8px #8c8e91;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(-0.09deg);
+  z-index: 8;
+}
+.rectangleParent {
+  top: 75.4px;
+  left: -222.4px;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  transform: rotate(-0.33deg);
+}
+.rectangleParent:hover {
+  animation: 1s ease 0s infinite normal none shadow-drop-bottom;
+  opacity: 1;
+}
+.svgviewerPngOutput21Parent {
+  position: relative;
+  width: 68.4px;
+  height: 68.4px;
+  transform: rotate(0.98deg);
+  transform-origin: 0 0;
+  display: none;
+}
+.svgviewerPngOutput21Parent:active .svgviewerPngOutput21 {
+  display: flex;
+}
+.svgviewerPngOutput21Parent:active .svgviewerPngOutput1Icon {
+  display: none;
+}
+.deposit1:active .rectangleGroup,
+.deposit1:hover .rectangleGroup,
+.frameParent:active .sidebar,
+.svgviewerPngOutput21Parent:active .rectangleParent {
+  display: flex;
+}
+.games9,
+.topMenu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.topMenu {
+  align-self: stretch;
+  height: 96px;
+  flex-direction: row;
+  padding: var(--padding-0) var(--padding-sm);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  transform: rotate(0.33deg);
+  transform-origin: 0 0;
+  font-family: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-poppins-regular-16
+  );
+}
+.games9 {
+  position: absolute;
+  top: calc(50% - 11px);
+  left: calc(50% - 80.4px);
+  font-size: var(--font-size-3xl);
+  line-height: 33px;
+  font-family: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+  );
+  color: var(--bitbetwin-cc-account-1920x1080-default-nero);
+  text-align: center;
+  width: 160.4px;
+  height: 22px;
+}
+.games8 {
+  cursor: pointer;
+  border: 1px solid
+    var(--bitbetwin-cc-account-1920x1080-default-electric-violet);
+  padding: 0;
+  background-color: var(
+    --bitbetwin-cc-account-1920x1080-default-linear-hollywood-cerise-kingfisher-daisy
+  );
+  position: relative;
+  border-radius: var(--br-8xs);
+  background: linear-gradient(90deg, rgba(21, 7, 73, 0.99), #4c0358);
+  box-shadow: 0 0 8px #8c8e91;
+  box-sizing: border-box;
+  width: 128px;
+  height: 54px;
+}
+.dontHaveBtc1:hover,
+.games8:hover,
+.howDoesItWork:hover,
+.promotions1:hover {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.05),
+      rgba(255, 255, 255, 0.05)
+    ),
+    linear-gradient(90deg, rgba(21, 7, 73, 0.99), #4c0358);
+  animation: 1s ease 0s infinite normal none shadow-drop-bottom;
+  opacity: 1;
+}
+.promotions2 {
+  position: absolute;
+  top: calc(50% - 11px);
+  left: calc(50% - 110.5px);
+  font-size: var(--font-size-3xl);
+  line-height: 33px;
+  font-family: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+  );
+  color: var(--bitbetwin-cc-account-1920x1080-default-nero);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 221.7px;
+  height: 22px;
+}
+.promotions1 {
+  cursor: pointer;
+  border: 1px solid
+    var(--bitbetwin-cc-account-1920x1080-default-electric-violet);
+  padding: 0;
+  background-color: var(
+    --bitbetwin-cc-account-1920x1080-default-linear-hollywood-cerise-kingfisher-daisy
+  );
+  position: relative;
+  border-radius: var(--br-8xs);
+  background: linear-gradient(90deg, rgba(21, 7, 73, 0.99), #4c0358);
+  box-shadow: 0 0 8px #8c8e91;
+  box-sizing: border-box;
+  width: 169px;
+  height: 54px;
+}
+.howDoesIt1 {
+  position: absolute;
+  top: calc(50% - 11px);
+  left: calc(50% - 80.2px);
+  font-size: var(--font-size-3xl);
+  line-height: 33px;
+  font-family: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+  );
+  color: var(--bitbetwin-cc-account-1920x1080-default-nero);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 160.3px;
+  height: 22px;
+}
+.howDoesItWork {
+  cursor: pointer;
+  border: 1px solid
+    var(--bitbetwin-cc-account-1920x1080-default-electric-violet);
+  padding: 0;
+  background-color: var(
+    --bitbetwin-cc-account-1920x1080-default-linear-hollywood-cerise-kingfisher-daisy
+  );
+  position: relative;
+  border-radius: var(--br-8xs);
+  background: linear-gradient(90deg, rgba(21, 7, 73, 0.99), #4c0358);
+  box-shadow: 0 0 8px #8c8e91;
+  box-sizing: border-box;
+  width: 235.8px;
+  height: 54px;
+}
+.dontHaveBtc2 {
+  position: absolute;
+  top: calc(50% - 11px);
+  left: calc(50% - 111px);
+  font-size: var(--font-size-3xl);
+  line-height: 33px;
+  font-family: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+  );
+  color: var(--bitbetwin-cc-account-1920x1080-default-nero);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 221.7px;
+  height: 22px;
+}
+.dontHaveBtc1 {
+  cursor: pointer;
+  border: 1px solid
+    var(--bitbetwin-cc-account-1920x1080-default-electric-violet);
+  padding: 0;
+  background-color: var(
+    --bitbetwin-cc-account-1920x1080-default-linear-hollywood-cerise-kingfisher-daisy
+  );
+  position: relative;
+  border-radius: var(--br-8xs);
+  background: linear-gradient(90deg, rgba(21, 7, 73, 0.99), #4c0358);
+  box-shadow: 0 0 8px #8c8e91;
+  box-sizing: border-box;
+  width: 218px;
+  height: 54px;
+}
+.depositNow {
+  position: absolute;
+  top: 10.5px;
+  left: 33.8px;
+  font-size: 26.17px;
+  line-height: 33px;
+  font-family: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+  );
+  color: var(--bitbetwin-cc-account-1920x1080-default-nero);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 141.6px;
+}
+.svgIcon {
+  position: absolute;
+  top: 15px;
+  left: 175.4px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.button {
+  top: calc(50% - 27px);
+  left: calc(50% - 111px);
+  border-radius: var(--br-8xs);
+  background: linear-gradient(90deg, rgba(21, 7, 73, 0.99), #4c0358);
+  box-shadow: 0 0 8px #8c8e91;
+  border: 1px solid
+    var(--bitbetwin-cc-account-1920x1080-default-electric-violet);
+  width: 221.7px;
+  height: 54px;
+}
+.button,
+.frameItem,
+.games10,
+.games11 {
+  position: absolute;
+  box-sizing: border-box;
+}
+.frameItem {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-midnightblue-300);
+  box-shadow: 0 0 7px rgba(255, 255, 255, 0.51);
+  border: 1px solid var(--color-midnightblue-200);
+}
+.games10,
+.games11 {
+  cursor: pointer;
+  border: 1px solid
+    var(--bitbetwin-cc-account-1920x1080-default-electric-violet);
+  padding: var(--padding-2xs) var(--padding-12xl);
+  background-color: var(
+    --bitbetwin-cc-account-1920x1080-default-linear-hollywood-cerise-kingfisher-daisy
+  );
+  height: 31.65%;
+  width: 85.47%;
+  top: 14.39%;
+  right: 7.04%;
+  bottom: 53.96%;
+  left: 7.5%;
+  border-radius: var(--br-8xs);
+  background: linear-gradient(90deg, rgba(21, 7, 73, 0.99), #4c0358);
+  box-shadow: 0 0 8px #8c8e91;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.games10:hover,
+.games11:hover {
+  animation: 1s ease 0s 1 normal none shadow-drop-bottom;
+  opacity: 1;
+}
+.games11 {
+  top: 53.24%;
+  bottom: 15.11%;
+}
+.rectangleGroup {
+  position: absolute;
+  top: 62.1px;
+  left: -7px;
+  width: 282.8px;
+  height: 152.9px;
+  display: none;
+}
+.rectangleGroup:hover {
+  animation: 1s ease 0s infinite normal none shadow-drop-bottom;
+  opacity: 1;
+}
+.deposit1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(
+    --bitbetwin-cc-account-1920x1080-default-linear-hollywood-cerise-kingfisher-daisy
+  );
+  position: relative;
+  width: 222px;
+  height: 54px;
+  opacity: 1;
+}
+.deposit1.animate {
+  animation: 3s ease 0s infinite normal forwards pulsate;
+}
+.deposit1:hover {
+  background-color: var(--color-gray-300);
+  animation: 1s ease 0s 1 normal none shadow-drop-bottom;
+  opacity: 1;
+}
+.events1 {
+  position: absolute;
+  top: calc(50% - 16.5px);
+  left: calc(50% - 29.3px);
+  font-size: 22.06px;
+  line-height: 33px;
+  font-family: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+  );
+  color: var(--bitbetwin-cc-account-1920x1080-default-nero);
+  text-align: center;
+}
+.link {
+  cursor: pointer;
+  border: 1px solid
+    var(--bitbetwin-cc-account-1920x1080-default-electric-violet);
+  padding: 0;
+  background-color: var(
+    --bitbetwin-cc-account-1920x1080-default-linear-hollywood-cerise-kingfisher-daisy
+  );
+  position: relative;
+  border-radius: var(--br-8xs);
+  background: linear-gradient(90deg, rgba(254, 0, 152, 0.99), #4307a4);
+  box-shadow: 0 0 8px #8c8e90;
+  box-sizing: border-box;
+  width: 139px;
+  height: 54px;
+  opacity: 1;
+}
+.link.animate {
+  animation: 2s ease 0s infinite normal forwards pulsate;
+}
+.link:hover {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.05),
+      rgba(255, 255, 255, 0.05)
+    ),
+    linear-gradient(90deg, rgba(254, 0, 152, 0.99), #4307a4);
+  animation: 1s ease 0s infinite normal none shadow-drop-bottom;
+  opacity: 1;
+}
+.mainMenu {
+  margin: 0;
+  width: 1174px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.vectorIcon {
+  position: relative;
+  width: 31px;
+  height: 27px;
+}
+.vectorWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-0) var(--padding-0) var(--padding-5xs);
+}
+.divcss1i0ek3mIcon {
+  position: absolute;
+  top: calc(50% - 7.05px);
+  left: 12px;
+  width: 14px;
+  height: 14px;
+  opacity: 0.5;
+}
+.dashboard2 {
+  position: absolute;
+  top: 4px;
+  left: 34px;
+  font-size: var(--font-size-lg);
+  line-height: 29.25px;
+  font-family: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+  );
+  color: var(--color-aliceblue-200);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 77.9px;
+  height: 29.3px;
+}
+.dashboard1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(
+    --bitbetwin-cc-account-1920x1080-default-linear-hollywood-cerise-kingfisher-daisy
+  );
+  align-self: stretch;
+  position: relative;
+  height: 37.3px;
+}
+.account1 {
+  position: absolute;
+  top: 4px;
+  left: 34px;
+  font-size: var(--font-size-lg);
+  line-height: 29.25px;
+  font-family: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+  );
+  color: var(--color-aliceblue-200);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 56.7px;
+  height: 29.3px;
+}
+.account {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(
+    --bitbetwin-cc-account-1920x1080-default-linear-hollywood-cerise-kingfisher-daisy
+  );
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-7xs);
+  height: 37.3px;
+}
+.divcss1i0ek3mIcon2 {
+  position: absolute;
+  top: calc(50% - 6.95px);
+  left: 12px;
+  width: 14px;
+  height: 14px;
+  opacity: 0.5;
+}
+.emailphone {
+  margin: 0;
+}
+.emailphoneChangingTxtContainer {
+  line-break: anywhere;
+  width: 100%;
+}
+.emailphoneChanging {
+  position: absolute;
+  top: 9px;
+  left: 34px;
+  font-size: var(--font-size-lg);
+  line-height: 29.25px;
+  font-family: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+  );
+  color: var(--color-aliceblue-200);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 89.8px;
+  height: 47.3px;
+}
+.emailVerification {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(
+    --bitbetwin-cc-account-1920x1080-default-linear-hollywood-cerise-kingfisher-daisy
+  );
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-7xs);
+  height: 66.5px;
+}
+.bonuses,
+.changePassword1,
+.emailphoneChangingVerificatContainer,
+.verifications {
+  position: absolute;
+  top: 9px;
+  left: 34px;
+  font-size: var(--font-size-lg);
+  line-height: 29.25px;
+  font-family: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+  );
+  color: var(--color-aliceblue-200);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 154.2px;
+  height: 47.3px;
+}
+.bonuses,
+.changePassword1,
+.verifications {
+  top: 4px;
+  width: 126.7px;
+  height: 29.3px;
+}
+.bonuses,
+.verifications {
+  width: 59.4px;
+}
+.verifications {
+  top: 9px;
+  width: 89.3px;
+  height: 18px;
+}
+.div,
+.spanverificationCount {
+  position: absolute;
+  height: 20px;
+}
+.div {
+  top: 0;
+  left: 8px;
+  font-size: var(
+    --bitbetwin-cc-platforms-1536x864-default-iceland-regular-14-size
+  );
+  line-height: 22.75px;
+  font-weight: 500;
+  font-family: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-poppins-regular-16
+  );
+  color: var(--bitbetwin-cc-withdrawals-1536x864-default-black);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 8.7px;
+}
+.spanverificationCount {
+  top: 8px;
+  left: 138.1px;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-gold-300);
+  width: 24.3px;
+}
+.div1,
+.messages {
+  position: absolute;
+  top: 9px;
+  left: calc(50% - 66px);
+  line-height: 29.25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 67.6px;
+  height: 18px;
+}
+.div1 {
+  top: 1.4px;
+  left: calc(50% - 4.7px);
+  width: 9.7px;
+}
+.divcssQ7fb8o {
+  position: absolute;
+  height: calc(100% - 15.3px);
+  top: 7.6px;
+  bottom: 7.7px;
+  left: 113.3px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-gold-300);
+  width: 21.4px;
+  color: var(--bitbetwin-cc-withdrawals-1536x864-default-black);
+}
+.message {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-7xs);
+  height: 37.3px;
+}
+.dashboard {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-aliceblue-200);
+}
+.platforms1 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.3px;
+  line-height: 19.5px;
+  text-transform: uppercase;
+}
+.divcss1i0ek3mIcon8 {
+  position: absolute;
+  top: calc(50% - 11.35px);
+  left: 0;
+  width: 26.2px;
+  height: 22.8px;
+  opacity: 0.5;
+}
+.platforms2 {
+  position: absolute;
+  top: 0;
+  left: 41.2px;
+  font-size: var(--font-size-lg);
+  line-height: 29.25px;
+  font-family: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+  );
+  color: var(--color-aliceblue-200);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 134.8px;
+  height: 29.3px;
+}
+.divcss1i0ek3mParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(
+    --bitbetwin-cc-account-1920x1080-default-linear-hollywood-cerise-kingfisher-daisy
+  );
+  align-self: stretch;
+  position: relative;
+  height: 29.3px;
+}
+.platform {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) var(--padding-xs);
+  gap: var(--gap-4xs);
+}
+.divcss1i0ek3mIcon9 {
+  position: absolute;
+  top: calc(50% - 11.35px);
+  left: 12px;
+  width: 14px;
+  height: 22.8px;
+  opacity: 0.5;
+}
+.deposits {
+  position: absolute;
+  top: 4px;
+  left: 34px;
+  font-size: var(--font-size-lg);
+  line-height: 29.25px;
+  font-family: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+  );
+  color: var(--color-aliceblue-200);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 60.6px;
+  height: 29.3px;
+}
+.divcss1i0ek3mIcon10 {
+  position: absolute;
+  top: calc(50% - 11.4px);
+  left: 12px;
+  width: 14px;
+  height: 22.8px;
+  opacity: 0.5;
+}
+.flashDeposit3 {
+  position: absolute;
+  top: 5.4px;
+  left: 0;
+  font-size: var(--font-size-lg);
+  line-height: 29.25px;
+  font-family: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+  );
+  color: var(--color-aliceblue-200);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 94.7px;
+  height: 18px;
+}
+.flashgifIcon {
+  position: absolute;
+  top: calc(50% - 15px);
+  left: calc(50% + 32.25px);
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.divh2dB1545c52 {
+  position: absolute;
+  width: calc(100% - 75.5px);
+  top: 4px;
+  right: 41.5px;
+  left: 34px;
+  height: 30px;
+}
+.flashDeposit2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(
+    --bitbetwin-cc-account-1920x1080-default-linear-hollywood-cerise-kingfisher-daisy
+  );
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-7xs);
+  height: 38px;
+}
+.withdrawals {
+  position: absolute;
+  top: 4px;
+  left: 34px;
+  font-size: var(--font-size-lg);
+  line-height: 29.25px;
+  font-family: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+  );
+  color: var(--color-aliceblue-200);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 87.9px;
+  height: 29.3px;
+}
+.finance,
+.frameParent,
+.sidebar {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.finance {
+  align-self: stretch;
+  display: flex;
+  padding: var(--padding-10xs) var(--padding-0);
+  gap: var(--gap-11xs);
+}
+.frameParent,
+.sidebar {
+  display: none;
+}
+.sidebar {
+  background: linear-gradient(90deg, #150749, #4c0358);
+  padding: var(--padding-25xl) var(--padding-xs);
+}
+.frameParent {
+  gap: var(--gap-xl);
+}
+.dashboard5 {
+  position: absolute;
+  top: 4px;
+  left: 34px;
+  font-size: var(--font-size-lg);
+  line-height: 29.25px;
+  font-family: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+  );
+  color: var(--color-aliceblue-200);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 77.9px;
+  height: 29.3px;
+}
+.account3:hover,
+.bonuses1:hover,
+.changePassword3:hover,
+.dashboard5:hover,
+.deposits1:hover,
+.emailphoneChanging1:hover,
+.emailphoneChangingVerificatContainer2:hover,
+.flashDeposit5:hover,
+.messages1:hover,
+.platforms4:hover,
+.verifications1:hover,
+.withdrawals1:hover {
+  color: var(--color-plum-100);
+}
+.dashboard4 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(
+    --bitbetwin-cc-account-1920x1080-default-linear-hollywood-cerise-kingfisher-daisy
+  );
+  position: relative;
+  width: 200px;
+  height: 37.3px;
+}
+.account3 {
+  position: absolute;
+  top: 4px;
+  left: 34px;
+  font-size: var(--font-size-lg);
+  line-height: 29.25px;
+  font-family: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+  );
+  color: var(--color-aliceblue-200);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 56.7px;
+  height: 29.3px;
+}
+.account2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(
+    --bitbetwin-cc-account-1920x1080-default-linear-hollywood-cerise-kingfisher-daisy
+  );
+  position: relative;
+  border-radius: var(--br-7xs);
+  width: 200px;
+  height: 37.3px;
+}
+.emailphoneChanging1 {
+  position: absolute;
+  top: 9px;
+  left: 34px;
+  font-size: var(--font-size-lg);
+  line-height: 29.25px;
+  font-family: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+  );
+  color: var(--color-aliceblue-200);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 89.8px;
+  height: 47.3px;
+}
+.emailVerification1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(
+    --bitbetwin-cc-account-1920x1080-default-linear-hollywood-cerise-kingfisher-daisy
+  );
+  position: relative;
+  border-radius: var(--br-7xs);
+  width: 200px;
+  height: 66.5px;
+}
+.changePassword3,
+.emailphoneChangingVerificatContainer2 {
+  left: 34px;
+  font-size: var(--font-size-lg);
+  font-family: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+  );
+  color: var(--color-aliceblue-200);
+  text-align: left;
+}
+.emailphoneChangingVerificatContainer2 {
+  position: absolute;
+  top: 9px;
+  line-height: 29.25px;
+  display: flex;
+  align-items: center;
+  width: 154.2px;
+  height: 47.3px;
+}
+.changePassword3 {
+  top: 4px;
+  width: 126.7px;
+  height: 29.3px;
+}
+.bonuses1,
+.changePassword3,
+.messages1,
+.verifications1 {
+  position: absolute;
+  line-height: 29.25px;
+  display: flex;
+  align-items: center;
+}
+.bonuses1 {
+  top: 4px;
+  left: 34px;
+  font-size: var(--font-size-lg);
+  font-family: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+  );
+  color: var(--color-aliceblue-200);
+  text-align: left;
+  width: 59.4px;
+  height: 29.3px;
+}
+.messages1,
+.verifications1 {
+  top: 9px;
+  height: 18px;
+}
+.verifications1 {
+  left: 34px;
+  font-size: var(--font-size-lg);
+  font-family: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+  );
+  color: var(--color-aliceblue-200);
+  text-align: left;
+  width: 89.3px;
+}
+.messages1 {
+  left: calc(50% - 66px);
+  justify-content: center;
+  width: 67.6px;
+}
+.message1 {
+  position: relative;
+  border-radius: var(--br-7xs);
+  width: 200px;
+  height: 37.3px;
+  cursor: pointer;
+}
+.dashboard3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-aliceblue-200);
+}
+.divcss1i0ek3mIcon20 {
+  position: relative;
+  width: 14px;
+  height: 22.8px;
+  opacity: 0.5;
+}
+.platforms4 {
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 29.25px;
+  font-family: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+  );
+  color: var(--color-aliceblue-200);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 71.9px;
+  height: 29.3px;
+  flex-shrink: 0;
+}
+.divcss1i0ek3mGroup {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-0) var(--padding-0) var(--padding-0) var(--padding-2xs);
+  background-color: var(
+    --bitbetwin-cc-account-1920x1080-default-linear-hollywood-cerise-kingfisher-daisy
+  );
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.deposits1,
+.flashDeposit5 {
+  position: absolute;
+  top: 4px;
+  left: 34px;
+  font-size: var(--font-size-lg);
+  line-height: 29.25px;
+  font-family: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+  );
+  color: var(--color-aliceblue-200);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 60.6px;
+  height: 29.3px;
+}
+.flashDeposit5 {
+  top: 5.4px;
+  left: 0;
+  width: 94.7px;
+  height: 18px;
+}
+.flashDeposit4 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(
+    --bitbetwin-cc-account-1920x1080-default-linear-hollywood-cerise-kingfisher-daisy
+  );
+  position: relative;
+  border-radius: var(--br-7xs);
+  width: 200px;
+  height: 38px;
+}
+.withdrawals1 {
+  position: absolute;
+  top: 4px;
+  left: 34px;
+  font-size: var(--font-size-lg);
+  line-height: 29.25px;
+  font-family: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+  );
+  color: var(--color-aliceblue-200);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 87.9px;
+  height: 29.3px;
+}
+.sidebar1 {
+  background: linear-gradient(90deg, #150749, #4c0358);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-25xl) var(--padding-xs);
+}
+.myPlatformAccounts {
+  width: 100%;
+  position: relative;
+  line-height: 21px;
+  text-transform: uppercase;
+  display: inline-block;
+  max-width: 1217px;
+}
+.heading2margin {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.separator {
+  align-self: stretch;
+  position: relative;
+  border: 1px solid var(--bitbetwin-cc-platforms-1536x864-default-gamboge-20);
+  box-sizing: border-box;
+  height: 1.6px;
+  opacity: 0.6;
+}
+.cell,
+.separatormargin {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.separatormargin {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-0);
+}
+.cell {
+  flex: 1;
+  border-bottom: 0.8px solid
+    var(--bitbetwin-cc-platforms-1536x864-default-oxford-blue);
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-0) var(--padding-3xs)
+    var(--padding-3xs);
+}
+.username {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.6px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+.cell1,
+.headerRow {
+  display: flex;
+  justify-content: center;
+}
+.cell1 {
+  flex: 1;
+  border-bottom: 0.8px solid
+    var(--bitbetwin-cc-platforms-1536x864-default-oxford-blue);
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-3xs) var(--padding-0);
+}
+.headerRow {
+  align-self: stretch;
+  border-radius: var(--br-8xs);
+  background-color: var(--bitbetwin-cc-platforms-1536x864-default-port-gore);
+  flex-direction: row;
+  align-items: center;
+}
+.funzone {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+}
+.gridcell,
+.gridcell1 {
+  flex: 1;
+  background-color: var(--bitbetwin-cc-platforms-1536x864-default-oxford-blue);
+  border-bottom: 0.8px solid
+    var(--bitbetwin-cc-platforms-1536x864-default-oxford-blue);
+  flex-direction: column;
+}
+.gridcell {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-base) var(--padding-0) var(--padding-base)
+    var(--padding-3xs);
+}
+.gridcell1 {
+  padding: var(--padding-base) var(--padding-0);
+}
+.bodyRow,
+.gridcell1,
+.gridcell2,
+.table {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.gridcell2 {
+  flex: 1;
+  background-color: var(--bitbetwin-cc-platforms-1536x864-default-oxford-blue);
+  border-bottom: 0.8px solid
+    var(--bitbetwin-cc-platforms-1536x864-default-oxford-blue);
+  flex-direction: column;
+  padding: var(--padding-base) var(--padding-0);
+  color: var(--bitbetwin-cc-platforms-1536x864-default-tropical-blue);
+}
+.bodyRow,
+.table {
+  align-self: stretch;
+  flex-direction: row;
+  font-size: var(--font-size-lg);
+  color: var(--bitbetwin-cc-withdrawals-1536x864-default-nero-92);
+}
+.table {
+  flex-direction: column;
+  font-size: var(--font-size-xs);
+  color: var(--bitbetwin-cc-platforms-1536x864-default-green);
+}
+.allPlatforms {
+  width: 100%;
+  position: relative;
+  line-height: 21px;
+  display: inline-block;
+  max-width: 1217px;
+}
+.cell4,
+.heading2margin1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.heading2margin1 {
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.cell4 {
+  flex: 1;
+  border-bottom: 0.8px solid
+    var(--bitbetwin-cc-platforms-1536x864-default-oxford-blue);
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-0) 12.800000190734863px
+    var(--padding-5xl);
+}
+.status {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.9px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+.cell5,
+.gridcell4 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.cell5 {
+  border-bottom: 0.8px solid
+    var(--bitbetwin-cc-platforms-1536x864-default-oxford-blue);
+  padding: var(--padding-xs) var(--padding-5xl) 12.800000190734863px
+    var(--padding-0);
+  text-align: right;
+}
+.gridcell4 {
+  padding: var(--padding-base) var(--padding-0) var(--padding-base)
+    var(--padding-5xl);
+}
+.request {
+  flex: 1;
+  position: relative;
+  font-size: var(
+    --bitbetwin-cc-platforms-1536x864-default-iceland-regular-14-size
+  );
+  line-height: 16.8px;
+  font-family: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+  );
+  color: var(--bitbetwin-cc-withdrawals-1536x864-default-black);
+  text-align: center;
+  display: inline-block;
+  max-height: 32px;
+}
+.button1,
+.gridcell5 {
+  display: flex;
+  justify-content: center;
+}
+.button1 {
+  cursor: pointer;
+  border: 0;
+  padding: 8.199999809265137px var(--padding-xl) 6.800000190734863px;
+  background-color: var(--bitbetwin-cc-platforms-1536x864-default-gamboge);
+  border-radius: var(--br-7xs);
+  height: 32px;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+  min-width: 32px;
+}
+.button1:hover {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0.2)
+    ),
+    #d89a0d;
+}
+.gridcell5 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-base) var(--padding-base) var(--padding-base)
+    var(--padding-0);
+}
+.bodyChild,
+.row {
+  align-self: stretch;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.bodyChild {
+  position: relative;
+  border-top: 1px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  height: 1px;
+}
+.created,
+.request1 {
+  position: relative;
+  font-size: var(
+    --bitbetwin-cc-platforms-1536x864-default-iceland-regular-14-size
+  );
+  line-height: 16.8px;
+  font-family: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+  );
+  color: var(--bitbetwin-cc-withdrawals-1536x864-default-black);
+  text-align: center;
+  display: inline-block;
+  max-height: 32px;
+}
+.created {
+  text-transform: uppercase;
+  color: var(--bitbetwin-cc-withdrawals-1536x864-default-nero-92);
+  max-height: 30.399999618530273px;
+}
+.button15 {
+  cursor: pointer;
+  border: 1px solid var(--bitbetwin-cc-platforms-1536x864-default-gamboge);
+  padding: 8.199999809265137px 18.20499038696289px 6.800000190734863px
+    18.405010223388672px;
+  background-color: var(
+    --bitbetwin-cc-account-1920x1080-default-linear-hollywood-cerise-kingfisher-daisy
+  );
+  border-radius: var(--br-7xs);
+  box-sizing: border-box;
+  height: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-width: 32px;
+}
+.requested {
+  position: relative;
+  font-size: var(--font-size-xs);
+  line-height: 20px;
+  text-transform: uppercase;
+  font-family: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+  );
+  color: var(--bitbetwin-cc-account-1920x1080-default-nero);
+  text-align: right;
+}
+.spanchakraBadge {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xs) var(--padding-xl);
+  background-color: #033d32;
+  border-radius: var(--br-6xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.spanchakraBadge:hover {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.1),
+      rgba(255, 255, 255, 0.1)
+    ),
+    #033d32;
+}
+.body,
+.table1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.body {
+  margin-top: -0.4px;
+  color: var(--bitbetwin-cc-withdrawals-1536x864-default-nero-92);
+}
+.table1 {
+  padding: var(--padding-0) var(--padding-0) 0.40004730224609375px;
+  font-size: var(--font-size-lg);
+  color: var(--bitbetwin-cc-platforms-1536x864-default-green);
+}
+.divcssEbb7g3,
+.divcssJi6ka9 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divcssJi6ka9 {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  background: linear-gradient(90deg, #150749, #4c0358);
+  flex-direction: column;
+  padding: var(--padding-11xl);
+  gap: var(--gap-lg);
+  font-size: var(--font-size-3xl);
+  color: var(--bitbetwin-cc-account-1920x1080-default-nero);
+}
+.divcssEbb7g3 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: var(--padding-xl);
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-xs);
+  color: var(--color-lightsteelblue);
+}
+.frameInner,
+.heading2 {
+  align-self: stretch;
+  position: relative;
+}
+.frameInner {
+  flex: 1;
+  background-color: var(--color-gainsboro-200);
+}
+.heading2 {
+  font-size: var(--font-size-13xl);
+  line-height: 31px;
+  color: var(--color-goldenrod-100);
+}
+.linkGames {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+.linkBlog:hover,
+.linkFlash:hover,
+.linkGames:hover {
+  color: var(--color-plum-100);
+}
+.linkBlog,
+.linkFlash,
+.linkGames {
+  align-self: stretch;
+  position: relative;
+  line-height: 27px;
+}
+.linkFlash {
+  cursor: pointer;
+}
+.heading2PlatformsParent,
+.linkGoldenParent,
+.pages,
+.promotions3 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lgi);
+}
+.heading2PlatformsParent,
+.linkGoldenParent,
+.promotions3 {
+  justify-content: center;
+  gap: var(--gap-mini);
+}
+.heading2PlatformsParent,
+.linkGoldenParent {
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.linkGoldenParent {
+  padding: var(--padding-14xl) var(--padding-0) var(--padding-0);
+  gap: var(--gap-8xs);
+}
+.fishnetLogo2Icon {
+  position: relative;
+  width: 236px;
+  height: 132px;
+  object-fit: cover;
+}
+.footerLogo {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.bitcoinBtcLogo1Icon,
+.dogeIcon {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.dogeIcon {
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.vectorParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-smi);
+}
+.footerWhatsappChild {
+  position: relative;
+  width: 29.8px;
+  height: 30px;
+}
+.businessHoursMondaySunday {
+  position: relative;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 124px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.footerWhatsapp {
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.backgroundIcon {
+  position: relative;
+  width: 119.5px;
+  height: 69.2px;
+  z-index: 0;
+}
+.groupIcon,
+.vectorIcon2,
+.vectorIcon3,
+.vectorIcon4,
+.vectorIcon5 {
+  position: absolute;
+  height: 55.56%;
+  width: 16.07%;
+  top: 0;
+  right: 83.93%;
+  bottom: 44.44%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.groupIcon,
+.vectorIcon3,
+.vectorIcon4,
+.vectorIcon5 {
+  right: 62.95%;
+  left: 20.98%;
+}
+.groupIcon,
+.vectorIcon4,
+.vectorIcon5 {
+  right: 41.97%;
+  left: 41.97%;
+}
+.groupIcon,
+.vectorIcon5 {
+  right: 20.98%;
+  left: 62.95%;
+}
+.groupIcon {
+  right: 0;
+  left: 83.93%;
+}
+.ratings,
+.stars {
+  position: absolute;
+  top: 76.19%;
+  left: 21.42%;
+}
+.stars {
+  margin: 0 !important;
+  top: 22.8px;
+  left: 14.1px;
+  width: 91.5px;
+  height: 25.2px;
+  z-index: 1;
+  font-size: 6.49px;
+}
+.verifiedByLivechat {
+  height: 8.32%;
+  width: 40.03%;
+  top: 82.66%;
+  left: 41.69%;
+  color: var(--bitbetwin-cc-account-1920x1080-default-nero);
+  text-align: left;
+  z-index: 2;
+}
+.excellentService,
+.mar2023,
+.verifiedByLivechat {
+  position: absolute;
+  margin: 0 !important;
+  display: inline-block;
+}
+.mar2023 {
+  height: 8.32%;
+  width: 20.85%;
+  top: 82.66%;
+  left: 11.46%;
+  color: var(--bitbetwin-cc-account-1920x1080-default-nero);
+  text-align: left;
+  z-index: 3;
+}
+.excellentService {
+  height: 9.71%;
+  width: 51.66%;
+  top: 11.65%;
+  left: 23.59%;
+  font-size: 7.57px;
+  z-index: 4;
+}
+.footerRight,
+.reviews {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.reviews {
+  overflow: hidden;
+  padding: var(--padding-11xs) var(--padding-12xs);
+  position: relative;
+  text-align: center;
+  font-size: 5.95px;
+  color: var(--color-darkslategray-200);
+  font-family: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+  );
+}
+.footerRight {
+  flex: 1;
+  font-size: var(--font-size-mini);
+  font-family: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-poppins-regular-16
+  );
+}
+.rectangleDiv {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  background-color: var(--color-gainsboro-100);
+  opacity: 0;
+}
+.rectangleContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-11xs);
+}
+.sectionLinkImage,
+.sectionLinkImage1 {
+  position: relative;
+  width: 77px;
+  height: 90px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.sectionLinkImage:hover {
+  width: 77px;
+}
+.footerLogos {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-17xl);
+}
+.allRightsReserved,
+.div5,
+.fishnetwin {
+  position: relative;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 143.3px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.div5,
+.fishnetwin {
+  width: 33.6px;
+}
+.fishnetwin {
+  width: 82px;
+}
+.creditBar {
+  align-self: stretch;
+  background-color: var(--color-gray-100);
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-xl);
+  box-sizing: border-box;
+  font-size: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16-size
+  );
+  color: var(--bitbetwin-cc-withdrawals-1536x864-default-nero-92);
+}
+.divbody,
+.footer,
+.platforms {
+  display: flex;
+  flex-direction: column;
+}
+.footer {
+  align-self: stretch;
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--padding-0) var(--padding-11xl);
+  gap: var(--gap-11xl);
+  font-size: var(--font-size-lg);
+}
+.divbody,
+.platforms {
+  justify-content: flex-start;
+}
+.divbody {
+  align-self: stretch;
+  background: linear-gradient(180deg, #130121, #1a014e);
+  align-items: center;
+  padding: var(--padding-6xl) var(--padding-0) var(--padding-0);
+  gap: var(--gap-11xl);
+}
+.platforms {
+  position: relative;
+  background-color: var(--bitbetwin-cc-withdrawals-1536x864-default-mirage);
+  width: 100%;
+  align-items: flex-start;
+  min-height: 864px;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--bitbetwin-cc-account-1920x1080-default-nero);
+  font-family: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+  );
+}
+@media screen and (max-width: 1200px) {
+  .svgviewerPngOutput1Icon,
+  .svgviewerPngOutput21Parent {
+    display: flex;
+  }
+  .mainMenu {
+    display: none;
+  }
+  .frameParent {
+    display: flex;
+  }
+  .footerLogos,
+  .frameInner,
+  .pages,
+  .rectangleDiv,
+  .sidebar1 {
+    display: none;
+  }
+}
+@media screen and (max-width: 960px) {
+  .link {
+    display: flex;
+  }
+  .footerRight {
+    display: none;
+  }
+}
+@media screen and (max-width: 720px) {
+  .whatsapp {
+    display: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  .promotions3,
+  .signIn,
+  .signUp {
+    display: none;
+  }
+}

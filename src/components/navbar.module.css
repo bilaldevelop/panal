@@ -1,0 +1,1015 @@
+@keyframes shadow-drop-bottom {
+    0% {
+      box-shadow: 0 0 0 0 transparent;
+    }
+    to {
+      box-shadow: 0 12px 20px -12px rgb(0 0 0/35%);
+    }
+  }
+  @keyframes pulsate {
+    0% {
+      transform: scale(1);
+      transform-origin: center center;
+      animation-timing-function: ease-out;
+    }
+    10% {
+      transform: scale(0.91);
+      animation-timing-function: ease-in;
+    }
+    17% {
+      transform: scale(0.98);
+      animation-timing-function: ease-out;
+    }
+    33% {
+      transform: scale(0.87);
+      animation-timing-function: ease-in;
+    }
+    45% {
+      transform: scale(1);
+      animation-timing-function: ease-out;
+    }
+  }
+  .games10,
+  .topMenu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 99;
+  }
+  .topMenu {
+    align-self: stretch;
+    height: 96px;
+    flex-direction: row;
+    padding: var(--padding-0) var(--padding-sm);
+    box-sizing: border-box;
+    gap: var(--gap-3xs);
+    transform: rotate(0.33deg);
+    transform-origin: 0 0;
+  }
+  .logoIcon {
+    max-height: 100%;
+    width: 250px;
+    position: relative;
+    left: -90px;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  .topMenuChild {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    background-color: var(--color-gainsboro-200);
+    transform: rotate(-0.33deg);
+    transform-origin: 0 0;
+    z-index: 99;
+  }
+  .phoneCallIconsvg {
+    position: relative;
+    width: 25.1px;
+    height: 25.1px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .navBusiness {
+    position: relative;
+    line-height: 24px;
+    width: 126px;
+    height: 24px;
+    flex-shrink: 0;
+  }
+  .navBusiness,
+  .signIn,
+  .signIn1,
+  .whatsapp {
+    display: flex;
+    align-items: center;
+  }
+  .whatsapp {
+    width: 161px;
+    height: 25px;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: var(--gap-3xs);
+    cursor: pointer;
+  }
+  .signIn,
+  .signIn1 {
+    flex-shrink: 0;
+  }
+  .signIn1 {
+    position: relative;
+    font-size: var(--font-size-xl);
+    line-height: 30px;
+    font-family: var(
+      --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+    );
+    color: var(--color-midnightblue-400);
+    text-align: center;
+    justify-content: center;
+    width: 53.3px;
+    height: 19px;
+  }
+  .signIn {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-5xs) var(--padding-0);
+    background-color: var(
+      --bitbetwin-cc-withdrawals-1536x864-default-golden-dream
+    );
+    border-radius: var(--br-8xs);
+    box-shadow: 0 0 5px 2px #d8c72c;
+    width: 92.7px;
+    height: 36px;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .signIn:active,
+  .signIn:hover,
+  .signUp:active,
+  .signUp:hover {
+    animation: 1s ease 0s infinite normal none shadow-drop-bottom;
+    opacity: 1;
+  }
+  .signUp1 {
+    position: relative;
+    font-size: var(--font-size-xl);
+    line-height: 30px;
+    font-family: var(
+      --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+    );
+    color: var(--bitbetwin-cc-account-1920x1080-default-nero);
+    text-align: center;
+    justify-content: center;
+    width: 60.1px;
+    height: 19px;
+    flex-shrink: 0;
+  }
+  .signInParent,
+  .signUp,
+  .signUp1,
+  .user {
+    display: flex;
+    align-items: center;
+  }
+  .signUp {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-5xs) var(--padding-0);
+    background-color: var(--color-midnightblue-100);
+    border-radius: var(--br-8xs);
+    box-shadow: 0 0 10px 2px #6d04ee;
+    width: 92.7px;
+    height: 36px;
+    overflow: hidden;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .signInParent,
+  .user {
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: var(--gap-9xl);
+  }
+  .user {
+    flex: 1;
+  }
+  .svgviewerPngOutput21 {
+    position: absolute;
+    top: 16.9px;
+    left: 16.3px;
+    width: 38px;
+    height: 38px;
+    object-fit: cover;
+    display: none;
+  }
+  .svgviewerPngOutput1Icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 51px;
+    object-fit: cover;
+  }
+  .frame {
+    position: absolute;
+    top: 8.9px;
+    left: 9.3px;
+    width: 50px;
+    height: 50.7px;
+    overflow: hidden;
+  }
+  .frameChild {
+    position: relative;
+    border-radius: var(--br-7xs);
+    background-color: var(--color-midnightblue-300);
+    box-shadow: 0 0 7px rgba(255, 255, 255, 0.51);
+    border: 1px solid var(--color-midnightblue-200);
+    box-sizing: border-box;
+    width: 100%;
+    height: 530px;
+    z-index: 0;
+    padding: 10px;
+  }
+  .games1,
+  .signInGroup {
+    margin: 0 !important;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transform-origin: 0 0;
+  }
+  .signInGroup {
+    height: 6.42%;
+    width: 75.37%;
+    top: 5.93%;
+    right: 13.43%;
+    bottom: 88.65%;
+    left: 11.2%;
+    justify-content: flex-end;
+    gap: var(--gap-9xl);
+    transform: rotate(0deg);
+    z-index: 1;
+  }
+  .games1 {
+    cursor: pointer;
+    border: 1px solid
+      var(--bitbetwin-cc-account-1920x1080-default-electric-violet);
+    padding: var(--padding-2xs) var(--padding-12xl);
+    background-color: var(
+      --bitbetwin-cc-account-1920x1080-default-linear-hollywood-cerise-kingfisher-daisy
+    );
+    height: 9.69%;
+    width: 85.41%;
+    top: 14.97%;
+    right: 6.78%;
+    bottom: 75.34%;
+    left: 7.81%;
+    border-radius: var(--br-8xs);
+    background: linear-gradient(90deg, rgba(21, 7, 73, 0.99), #4c0358);
+    box-shadow: 0 0 8px #8c8e91;
+    box-sizing: border-box;
+    justify-content: center;
+    transform: rotate(-0.09deg);
+    z-index: 2;
+  }
+  .games1:hover,
+  .games3:hover,
+  .games4:hover,
+  .games5:hover,
+  .games6:hover,
+  .games7:hover,
+  .games8:hover {
+    animation: 1s ease 0s 1 normal none shadow-drop-bottom;
+    opacity: 1;
+  }
+  .promotions {
+    position: relative;
+    font-size: var(--font-size-3xl);
+    line-height: 33px;
+    font-family: var(
+      --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+    );
+    color: var(--bitbetwin-cc-account-1920x1080-default-nero);
+    text-align: left;
+  }
+  .games3 {
+    cursor: pointer;
+    border: 1px solid
+      var(--bitbetwin-cc-account-1920x1080-default-electric-violet);
+    padding: var(--padding-2xs) var(--padding-12xl);
+    background-color: var(
+      --bitbetwin-cc-account-1920x1080-default-linear-hollywood-cerise-kingfisher-daisy
+    );
+    margin: 0 !important;
+    height: 9.69%;
+    width: 85.41%;
+    top: 26.99%;
+    right: 6.71%;
+    bottom: 63.33%;
+    left: 7.88%;
+    border-radius: var(--br-8xs);
+    background: linear-gradient(90deg, rgba(21, 7, 73, 0.99), #4c0358);
+    box-shadow: 0 0 8px #8c8e91;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(-0.09deg);
+    z-index: 3;
+  }
+  .games3,
+  .games4,
+  .games5 {
+    position: absolute;
+    transform-origin: 0 0;
+  }
+  .games4 {
+    cursor: pointer;
+    border: 1px solid
+      var(--bitbetwin-cc-account-1920x1080-default-electric-violet);
+    padding: var(--padding-2xs) var(--padding-12xl);
+    background-color: var(
+      --bitbetwin-cc-account-1920x1080-default-linear-hollywood-cerise-kingfisher-daisy
+    );
+    margin: 0 !important;
+    height: 9.69%;
+    width: 85.41%;
+    top: 38.98%;
+    right: 6.61%;
+    bottom: 51.33%;
+    left: 7.99%;
+    border-radius: var(--br-8xs);
+    background: linear-gradient(90deg, rgba(21, 7, 73, 0.99), #4c0358);
+    box-shadow: 0 0 8px #8c8e91;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(-0.09deg);
+    z-index: 4;
+  }
+  .games5 {
+    top: 50.98%;
+    right: 6.54%;
+    bottom: 39.33%;
+    left: 8.06%;
+    z-index: 5;
+  }
+  .games5,
+  .games6,
+  .games7 {
+    cursor: pointer;
+    border: 1px solid
+      var(--bitbetwin-cc-account-1920x1080-default-electric-violet);
+    padding: var(--padding-2xs) var(--padding-12xl);
+    background-color: var(
+      --bitbetwin-cc-account-1920x1080-default-linear-hollywood-cerise-kingfisher-daisy
+    );
+    margin: 0 !important;
+    height: 9.69%;
+    width: 85.41%;
+    border-radius: var(--br-8xs);
+    background: linear-gradient(90deg, rgba(21, 7, 73, 0.99), #4c0358);
+    box-shadow: 0 0 8px #8c8e91;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(-0.09deg);
+  }
+  .games6 {
+    position: absolute;
+    top: 62.97%;
+    right: 6.47%;
+    bottom: 27.34%;
+    left: 8.13%;
+    transform-origin: 0 0;
+    z-index: 6;
+  }
+  .games7 {
+    top: 74.97%;
+    right: 6.36%;
+    bottom: 15.34%;
+    left: 8.23%;
+    z-index: 7;
+  }
+  .games7,
+  .games8 {
+    position: absolute;
+    transform-origin: 0 0;
+  }
+  /* .rectangleParent {
+    position: absolute;
+    /* z-index: 999999999999999999999999999 !important; 
+  } */
+  .games8 {
+    cursor: pointer;
+    border: 1px solid
+      var(--bitbetwin-cc-account-1920x1080-default-electric-violet);
+    padding: var(--padding-2xs) var(--padding-12xl);
+    background-color: var(
+      --bitbetwin-cc-account-1920x1080-default-linear-hollywood-cerise-kingfisher-daisy
+    );
+    margin: 0 !important;
+    height: 9.69%;
+    width: 85.41%;
+    top: 85.99%;
+    right: 6.29%;
+    bottom: 3.33%;
+    left: 8.3%;
+    border-radius: var(--br-8xs);
+    background: linear-gradient(90deg, rgba(21, 7, 73, 0.99), #4c0358);
+    box-shadow: 0 0 8px #8c8e91;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(-0.09deg);
+    z-index: 8;
+  }
+  .rectangleParent {
+    /* top: 80px;
+    left: -222.4px; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-3xs);
+    transform: rotate(0deg);
+    padding: 20px;
+  }
+  .drawerButton{
+    background-color: transparent;
+    border: none;
+  }
+  .drawerButton svg{
+    width: 30px;
+    height: 30px;
+    color: gold;
+    transform: rotate(0deg);
+  }
+
+  /* .rectangleParent:hover {
+    animation: 1s ease 0s infinite normal none shadow-drop-bottom;
+    opacity: 1;
+  } */
+  .svgviewerPngOutput21Parent {
+    position: relative;
+    width: 68.4px;
+    height: 68.4px;
+    transform: rotate(0.98deg);
+    transform-origin: 0 0;
+    display: none;
+  }
+  .svgviewerPngOutput21Parent:active .svgviewerPngOutput21 {
+    display: flex;
+  }
+  .svgviewerPngOutput21Parent:active .svgviewerPngOutput1Icon {
+    display: none;
+  }
+  .deposit1:active .rectangleGroup,
+  .deposit1:hover .rectangleGroup,
+  .svgviewerPngOutput21Parent:active .rectangleParent {
+    display: flex;
+  }
+
+  .games10 {
+    position: absolute;
+    top: calc(50% - 11px);
+    left: calc(50% - 80.4px);
+    font-size: var(--font-size-3xl);
+    line-height: 33px;
+    font-family: var(
+      --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+    );
+    color: var(--bitbetwin-cc-account-1920x1080-default-nero);
+    text-align: center;
+    width: 160.4px;
+    height: 22px;
+  }
+  .games9 {
+    cursor: pointer;
+    border: 1px solid
+      var(--bitbetwin-cc-account-1920x1080-default-electric-violet);
+    padding: 0;
+    background-color: var(
+      --bitbetwin-cc-account-1920x1080-default-linear-hollywood-cerise-kingfisher-daisy
+    );
+    position: relative;
+    border-radius: var(--br-8xs);
+    background: linear-gradient(90deg, rgba(21, 7, 73, 0.99), #4c0358);
+    box-shadow: 0 0 8px #8c8e91;
+    box-sizing: border-box;
+    width: 128px;
+    height: 54px;
+  }
+  .dontHaveBtc1:hover,
+  .games9:hover,
+  .howDoesItWork:hover,
+  .promotions1:hover {
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.05),
+        rgba(255, 255, 255, 0.05)
+      ),
+      linear-gradient(90deg, rgba(21, 7, 73, 0.99), #4c0358);
+    animation: 1s ease 0s infinite normal none shadow-drop-bottom;
+    opacity: 1;
+  }
+  .promotions2 {
+    position: absolute;
+    top: calc(50% - 11px);
+    left: calc(50% - 110.5px);
+    font-size: var(--font-size-3xl);
+    line-height: 33px;
+    font-family: var(
+      --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+    );
+    color: var(--bitbetwin-cc-account-1920x1080-default-nero);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 221.7px;
+    height: 22px;
+  }
+  .promotions1 {
+    cursor: pointer;
+    border: 1px solid
+      var(--bitbetwin-cc-account-1920x1080-default-electric-violet);
+    padding: 0;
+    background-color: var(
+      --bitbetwin-cc-account-1920x1080-default-linear-hollywood-cerise-kingfisher-daisy
+    );
+    position: relative;
+    border-radius: var(--br-8xs);
+    background: linear-gradient(90deg, rgba(21, 7, 73, 0.99), #4c0358);
+    box-shadow: 0 0 8px #8c8e91;
+    box-sizing: border-box;
+    width: 169px;
+    height: 54px;
+  }
+  .howDoesIt1 {
+    position: absolute;
+    top: calc(50% - 11px);
+    left: calc(50% - 80.2px);
+    font-size: var(--font-size-3xl);
+    line-height: 33px;
+    font-family: var(
+      --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+    );
+    color: var(--bitbetwin-cc-account-1920x1080-default-nero);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160.3px;
+    height: 22px;
+  }
+  .howDoesItWork {
+    cursor: pointer;
+    border: 1px solid
+      var(--bitbetwin-cc-account-1920x1080-default-electric-violet);
+    padding: 0;
+    background-color: var(
+      --bitbetwin-cc-account-1920x1080-default-linear-hollywood-cerise-kingfisher-daisy
+    );
+    position: relative;
+    border-radius: var(--br-8xs);
+    background: linear-gradient(90deg, rgba(21, 7, 73, 0.99), #4c0358);
+    box-shadow: 0 0 8px #8c8e91;
+    box-sizing: border-box;
+    width: 235.8px;
+    height: 54px;
+  }
+  .dontHaveBtc2 {
+    position: absolute;
+    top: calc(50% - 11px);
+    left: calc(50% - 111px);
+    font-size: var(--font-size-3xl);
+    line-height: 33px;
+    font-family: var(
+      --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+    );
+    color: var(--bitbetwin-cc-account-1920x1080-default-nero);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 221.7px;
+    height: 22px;
+  }
+  .dontHaveBtc1 {
+    cursor: pointer;
+    border: 1px solid
+      var(--bitbetwin-cc-account-1920x1080-default-electric-violet);
+    padding: 0;
+    background-color: var(
+      --bitbetwin-cc-account-1920x1080-default-linear-hollywood-cerise-kingfisher-daisy
+    );
+    position: relative;
+    border-radius: var(--br-8xs);
+    background: linear-gradient(90deg, rgba(21, 7, 73, 0.99), #4c0358);
+    box-shadow: 0 0 8px #8c8e91;
+    box-sizing: border-box;
+    width: 218px;
+    height: 54px;
+  }
+  .depositNow {
+    position: absolute;
+    top: 10.5px;
+    left: 33.8px;
+    font-size: 26.17px;
+    line-height: 33px;
+    font-family: var(
+      --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+    );
+    color: var(--bitbetwin-cc-account-1920x1080-default-nero);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 141.6px;
+  }
+  .svgIcon {
+    position: absolute;
+    top: 15px;
+    left: 175.4px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+  }
+  .button {
+    top: calc(50% - 27px);
+    left: calc(50% - 111px);
+    border-radius: var(--br-8xs);
+    background: linear-gradient(90deg, rgba(21, 7, 73, 0.99), #4c0358);
+    box-shadow: 0 0 8px #8c8e91;
+    border: 1px solid
+      var(--bitbetwin-cc-account-1920x1080-default-electric-violet);
+    width: 221.7px;
+    height: 54px;
+  }
+  .button,
+  .frameItem,
+  .games11,
+  .games12 {
+    position: absolute;
+    box-sizing: border-box;
+  }
+  .frameItem {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: var(--br-7xs);
+    background-color: var(--color-midnightblue-300);
+    box-shadow: 0 0 7px rgba(255, 255, 255, 0.51);
+    border: 1px solid var(--color-midnightblue-200);
+  }
+  .games11,
+  .games12 {
+    cursor: pointer;
+    border: 1px solid
+      var(--bitbetwin-cc-account-1920x1080-default-electric-violet);
+    padding: var(--padding-2xs) var(--padding-12xl);
+    background-color: var(
+      --bitbetwin-cc-account-1920x1080-default-linear-hollywood-cerise-kingfisher-daisy
+    );
+    height: 31.65%;
+    width: 85.47%;
+    top: 14.39%;
+    right: 7.04%;
+    bottom: 53.96%;
+    left: 7.5%;
+    border-radius: var(--br-8xs);
+    background: linear-gradient(90deg, rgba(21, 7, 73, 0.99), #4c0358);
+    box-shadow: 0 0 8px #8c8e91;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .games11:hover,
+  .games12:hover {
+    animation: 1s ease 0s 1 normal none shadow-drop-bottom;
+    opacity: 1;
+  }
+  .games12 {
+    top: 53.24%;
+    bottom: 15.11%;
+  }
+  .rectangleGroup {
+    position: absolute;
+    top: 62.1px;
+    left: -7px;
+    width: 282.8px;
+    height: 152.9px;
+    display: none;
+    z-index: 999;
+  }
+  .rectangleGroup:hover {
+    animation: 1s ease 0s infinite normal none shadow-drop-bottom;
+    opacity: 1;
+  }
+  .deposit1 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: var(
+      --bitbetwin-cc-account-1920x1080-default-linear-hollywood-cerise-kingfisher-daisy
+    );
+    position: relative;
+    width: 222px;
+    height: 54px;
+    opacity: 1;
+  }
+  .deposit1.animate {
+    animation: 3s ease 0s infinite normal forwards pulsate;
+  }
+  .deposit1:hover {
+    background-color: var(--color-gray-300);
+    animation: 1s ease 0s 1 normal none shadow-drop-bottom;
+    opacity: 1;
+  }
+  .events1 {
+    position: absolute;
+    top: calc(50% - 16.5px);
+    left: calc(50% - 29.3px);
+    font-size: 22.06px;
+    line-height: 33px;
+    font-family: var(
+      --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+    );
+    color: var(--bitbetwin-cc-account-1920x1080-default-nero);
+    text-align: center;
+  }
+  .link {
+    cursor: pointer;
+    border: 1px solid
+      var(--bitbetwin-cc-account-1920x1080-default-electric-violet);
+    padding: 0;
+    background-color: var(
+      --bitbetwin-cc-account-1920x1080-default-linear-hollywood-cerise-kingfisher-daisy
+    );
+    position: relative;
+    border-radius: var(--br-8xs);
+    background: linear-gradient(90deg, rgba(254, 0, 152, 0.99), #4307a4);
+    box-shadow: 0 0 8px #8c8e90;
+    box-sizing: border-box;
+    width: 139px;
+    height: 54px;
+    opacity: 1;
+  }
+  .link.animate {
+    animation: 2s ease 0s infinite normal forwards pulsate;
+  }
+  .link:hover {
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.05),
+        rgba(255, 255, 255, 0.05)
+      ),
+      linear-gradient(90deg, rgba(254, 0, 152, 0.99), #4307a4);
+    animation: 1s ease 0s infinite normal none shadow-drop-bottom;
+    opacity: 1;
+  }
+  .mainMenu {
+    margin: 0;
+    width: 1174px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+ 
+  @media screen and (max-width: 1049px) {
+    .imageLargeConatiner2 {
+      top: 0px;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .svgviewerPngOutput1Icon,
+    .svgviewerPngOutput21Parent {
+      display: flex;
+    }
+    .mainMenu,
+    .rectangleWrapper {
+      display: none;
+    }
+    .tabpanelButton27,
+    .tabpanelButton6 {
+      display: flex;
+    }
+    .footerLogos,
+    .frameChild1,
+    .frameChild2,
+    .pages {
+      display: none;
+    }
+    .signInMenu{
+      display: none;
+    }
+    .games1 {
+      top: 7%;
+      left: 7%;
+    }
+    .games3 {
+      top: 19%;
+      left: 7%;
+    }
+    .games4 {
+      top: 32%;
+      left: 7%;
+      text-wrap: nowrap;
+    }
+    .games5 {
+      top: 45%;
+      left: 7%;
+    }
+    .games6 {
+      top: 58%;
+      left: 7%;
+    }
+    .games7 {
+      top: 71%;
+      left: 7%;
+    }
+    .games8 {
+      top: 84%;
+      left: 7%;
+    }
+  }
+  @media screen and (max-width: 1170px) {
+    .ultrapowerGame1 {
+      top: -5px;
+    }
+    /* .signIn,
+    .signUp {
+      display:none;
+    } */
+  }
+  @media screen and (max-width: 960px) {
+    .link {
+      display: flex;
+    }
+    .all,
+    .rivermonster,
+    .ultrapower {
+      flex: unset;
+      align-self: stretch;
+    }
+    .tablist {
+      flex-direction: column;
+      height: unset;
+    }
+    .footerRight {
+      display: none;
+    }
+    .ultrapowerGame1 {
+      top: 0px;
+    }
+    /* .signIn,
+    .signUp {
+      display:none;
+    } */
+  }
+  
+  @media screen and (max-width: 720px) {
+    .whatsapp {
+      display: none;
+    }
+   
+  }
+  @media screen and (max-width: 500px) {
+    .promotions3,
+    .signIn,
+    .signUp {
+      display: none;
+    }
+    .signInGroup{
+      top:8%;
+      left: 3.2%;
+    }
+    .signInMenu{
+      display: inline-block;
+      
+    }
+    .games1 {
+      top: 19%;
+      left: 20%;
+      width: 220px;
+      height:45px;
+    }
+    .games3 {
+      top: 30%;
+      left: 20%;
+      width: 220px;
+      height:45px;
+    }
+    .games4 {
+      top: 41%;
+      left: 20%;
+      text-wrap: nowrap;
+      width: 220px;
+      height:45px;
+    }
+    .games5 {
+      top: 52%;
+      left: 20%;
+      width: 220px;
+      height:45px;
+    }
+    .games6 {
+      top: 63%;
+      left: 20%;
+      width: 220px;
+      height:45px;
+    }
+    .games7 {
+      top: 74%;
+      left: 20%;
+      width: 220px;
+      height:45px;
+    }
+    .games8 {
+      top: 85%;
+      left: 20%;
+      width: 220px;
+      height:45px;
+    }
+  }
+  @media screen and (max-width: 375px) {
+    .logoIcon {
+      max-height: 100%;
+      width: 180px;
+      position: relative;
+      left: -60px;
+    }
+    .drawerButton svg{
+      width: 30px;
+      height: 30px;
+      color: gold;
+      transform: rotate(0deg);
+    }
+    .svgviewerPngOutput21Parent {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+    .svgviewerPngOutput21Parent {
+      transform: rotate(0deg);
+    }
+    .topMenu {
+      align-self: stretch;
+      height: 70px;
+      gap: var(--gap-5xs);
+      transform: rotate(0deg);
+    }
+    /* .signIn,
+    .signUp {
+      display: inline-block;
+    } */
+    .signInMenu{
+      display: inline-block;
+      
+    }
+    .signInGroup{
+      top:8%;
+      left: 9%;
+    }
+    .games1 {
+      top: 19%;
+      left: 12%;
+      width: 220px;
+      height:45px;
+    }
+    .games3 {
+      top: 30%;
+      left: 12%;
+      width: 220px;
+      height:45px;
+    }
+    .games4 {
+      top: 41%;
+      left: 12%;
+      text-wrap: nowrap;
+      width: 220px;
+      height:45px;
+    }
+    .games5 {
+      top: 52%;
+      left: 12%;
+      width: 220px;
+      height:45px;
+    }
+    .games6 {
+      top: 63%;
+      left: 12%;
+      width: 220px;
+      height:45px;
+    }
+    .games7 {
+      top: 74%;
+      left: 12%;
+      width: 220px;
+      height:45px;
+    }
+    .games8 {
+      top: 85%;
+      left: 12%;
+      width: 220px;
+      height:45px;
+    }
+    
+  }
+ 

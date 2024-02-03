@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Iceland:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16: Iceland;
+  --bitbetwin-cc-withdrawals-1536x864-default-poppins-regular-16: Poppins;
+  --font-londrina-solid: "Londrina Solid";
+  --font-montserrat: Montserrat;
+  --font-noto-sans: "Noto Sans";
+
+  /* font sizes */
+  --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16-size: 16px;
+  --font-size-5xs-6: 7.6px;
+  --font-size-7xs: 6px;
+  --font-size-6xs-5: 6.5px;
+  --font-size-mini: 15px;
+  --font-size-lg: 18px;
+  --font-size-13xl: 32px;
+  --font-size-xs: 12px;
+  --bitbetwin-cc-platforms-1536x864-default-iceland-regular-14-size: 14px;
+  --font-size-61xl: 80px;
+  --font-size-3xl-1: 22.1px;
+  --font-size-3xl: 22px;
+  --font-size-7xl-2: 26.2px;
+  --font-size-xl: 20px;
+  --bitbetwin-cc-bonuses-1536x864-default-1-poppins-regular-25-upper-size: 25px;
+  --font-size-45xl: 64px;
+  --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-13-size: 13px;
+  --bitbetwin-cc-custom-user-verification-1536x864-default-iceland-regular-36-size: 36px;
+  --font-size-5xl: 24px;
+  --font-size-mini-7: 14.7px;
+  --font-size-29xl: 48px;
+
+  /* Colors */
+  --bitbetwin-cc-user-email-phone-change-1920x1080-default-gray: #888;
+  --bitbetwin-cc-withdrawals-1536x864-default-shark: #222628;
+  --bitbetwin-cc-withdrawals-1536x864-default-mirage: #1a202c;
+  --color-gray-100: #0d011c;
+  --bitbetwin-cc-account-1920x1080-default-black: #010101;
+  --color-gray-400: rgba(255, 255, 255, 0);
+  --color-gray-200: rgba(255, 255, 255, 0.25);
+  --bitbetwin-cc-account-1920x1080-default-nero-8: rgba(255, 255, 255, 0.08);
+  --color-gray-300: rgba(255, 255, 255, 0.05);
+  --bitbetwin-cc-withdrawals-1536x864-default-nero-16: rgba(
+    255,
+    255,
+    255,
+    0.16
+  );
+  --bitbetwin-cc-withdrawals-1536x864-default-nero-92: rgba(
+    255,
+    255,
+    255,
+    0.92
+  );
+  --color-gainsboro-100: #d9d9d9;
+  --color-gainsboro-200: rgba(217, 217, 217, 0);
+  --color-darkslategray-100: #3f3f3f;
+  --color-darkslategray-200: #3a3a3a;
+  --bitbetwin-cc-platforms-1536x864-default-oxford-blue: #2d3748;
+  --bitbetwin-cc-account-1920x1080-default-nero: #fff;
+  --color-plum-100: #d893e3;
+  --bitbetwin-cc-change-password-1536x864-default-light-wisteria: #ce95d8;
+  --bitbetwin-cc-withdrawals-1536x864-default-golden-dream: #efca39;
+  --color-goldenrod-100: #d9b62f;
+  --bitbetwin-cc-withdrawals-1536x864-default-corn: #dbb800;
+  --color-goldenrod-200: #e3a70b;
+  --bitbetwin-cc-platforms-1536x864-default-gamboge: #d89a0d;
+  --color-goldenrod-300: rgba(230, 163, 10, 0.1);
+  --bitbetwin-cc-platforms-1536x864-default-gamboge-20: rgba(230, 163, 10, 0.2);
+  --color-aliceblue-100: #edf2f7;
+  --bitbetwin-cc-change-password-1536x864-default-zumthor: #e8f0fe;
+  --color-aliceblue-200: #e2e8f0;
+  --color-aliceblue-300: rgba(226, 232, 240, 0.16);
+  --color-lightskyblue: #90cdf4;
+  --color-lightsteelblue: #a0aec0;
+  --bitbetwin-cc-bonuses-1536x864-default-1-green: #ffe600;
+  --color-gold-100: #ffde0a;
+  --color-gold-200: #feda01;
+  --color-gold-300: #f2cf38;
+  --color-gold-400: #ffd600;
+  --bitbetwin-cc-withdrawals-1536x864-default-black: #000;
+  --color-orangered-100: #fa6701;
+  --color-orangered-200: #f16402;
+  --bitbetwin-cc-account-1920x1080-default-electric-violet: #7438f2;
+  --color-midnightblue-100: #36086d;
+  --color-midnightblue-200: #3d0062;
+  --color-midnightblue-300: #340f45;
+  --bitbetwin-cc-deposits-1536x864-default-violet: #1c0e44;
+  --bitbetwin-cc-withdrawals-1536x864-default-tolopea: #230051;
+  --color-midnightblue-400: #00014b;
+  --color-saddlebrown-100: #924108;
+  --bitbetwin-cc-bonuses-1536x864-default-1-red-berry: #9800ff;
+  --color-darkslateblue-100: #5f3175;
+  --bitbetwin-cc-platforms-1536x864-default-port-gore: #32204e;
+  --bitbetwin-cc-withdrawals-1536x864-default-mid-gray: #68686e;
+  --bitbetwin-cc-deposits-1536x864-default-fuscous-gray-50: rgba(
+    88,
+    86,
+    82,
+    0.5
+  );
+  --bitbetwin-cc-withdrawals-1536x864-default-mid-gray-50: rgba(
+    104,
+    104,
+    110,
+    0.5
+  );
+  --color-olivedrab: #78b23a;
+  --color-red: #df0505;
+  --bitbetwin-cc-account-1920x1080-default-algae-green: #9ae6b4;
+  --color-yellow: #ffff00;
+  --bitbetwin-cc-withdrawals-1536x864-default-seance: #5b158a;
+  --bitbetwin-cc-platforms-1536x864-default-green: #ffb600;
+  --bitbetwin-cc-platforms-1536x864-default-tropical-blue: #bee3f8;
+  --bitbetwin-cc-user-message-system-1536x864-default-ocean-green: #48bb78;
+  --bitbetwin-cc-user-email-phone-change-1920x1080-default-gallery: #f0f0f0;
+  --bitbetwin-cc-account-1920x1080-default-japanese-laurel: #008000;
+  --color-navy: #240679;
+
+  /* Gaps */
+  --gap-mini: 15px;
+  --gap-11xl: 30px;
+  --gap-17xl: 36px;
+  --gap-11xs: 2px;
+  --gap-3xs: 10px;
+  --gap-smi: 13px;
+  --gap-8xs: 5px;
+  --gap-lgi: 19px;
+  --gap-5xs: 8px;
+  --gap-sm: 14px;
+  --gap-9xl: 28px;
+  --gap-21xl: 40px;
+  --gap-base: 16px;
+  --gap-xl: 20px;
+  --gap-13xl: 32px;
+  --gap-5xl: 24px;
+  --gap-4xs: 9px;
+  --gap-xs: 12px;
+  --gap-10xs: 3px;
+  --gap-9xs: 4px;
+  --gap-6xs: 7px;
+  --gap-0: 0px;
+  --gap-2xs: 11px;
+  --gap-mid: 17px;
+  --gap-lg: 18px;
+  --gap-smi-3: 12.3px;
+  --gap-6xl: 25px;
+  --gap-26xl: 45px;
+  --gap-31xl: 50px;
+  --gap-7xl: 26px;
+  --gap-19xl: 38px;
+  --gap-8xl: 27px;
+  --gap-23xl: 42px;
+  --gap-18xl: 37px;
+  --gap-16xl: 35px;
+  --gap-14xl: 33px;
+  --gap-32xl: 51px;
+  --gap-25xl: 44px;
+
+  /* Paddings */
+  --padding-11xl: 30px;
+  --padding-3xs: 10px;
+  --padding-xl: 20px;
+  --padding-11xs: 2px;
+  --padding-12xs: 1px;
+  --padding-14xl: 33px;
+  --padding-mid: 17px;
+  --padding-mini: 15px;
+  --padding-9xs: 4px;
+  --padding-xs: 12px;
+  --padding-8xs: 5px;
+  --padding-2xl: 21px;
+  --padding-2xs: 11px;
+  --padding-12xl: 31px;
+  --padding-sm: 14px;
+  --padding-5xs: 8px;
+  --padding-lg: 18px;
+  --padding-8xl: 27px;
+  --padding-base: 16px;
+  --padding-7xs: 6px;
+  --padding-5xl: 24px;
+  --padding-21xl: 40px;
+  --padding-7xl: 26px;
+  --padding-10xs: 3px;
+  --padding-6xs: 7px;
+  --padding-28xl-6: 47.6px;
+  --padding-28xl-8: 47.8px;
+  --padding-base-8: 16.8px;
+  --padding-430xl: 449px;
+  --padding-13xl: 32px;
+  --padding-3xs-6: 9.6px;
+  --padding-3xs-8: 9.8px;
+  --padding-12xs-8: 0.8px;
+  --padding-lgi: 19px;
+  --padding-16xl: 35px;
+  --padding-25xl: 44px;
+  --padding-base-4: 16.4px;
+  --padding-base-6: 15.6px;
+  --padding-57xl-8: 76.8px;
+  --padding-57xl-9: 76.9px;
+  --padding-12xs-6: 0.6px;
+  --padding-6xl: 25px;
+  --padding-4xs-2: 8.2px;
+  --padding-6xs-8: 6.8px;
+  --padding-smi-8: 12.8px;
+  --padding-10xl: 29px;
+  --padding-0: 0px;
+  --padding-6xs-4: 6.4px;
+  --padding-5xs-2: 7.2px;
+  --padding-mid-8: 17.8px;
+  --padding-xl-4: 20.4px;
+  --padding-7xl-2: 26.2px;
+  --padding-lgi-3: 19.3px;
+  --padding-mid-7: 17.7px;
+  --padding-32xl: 51px;
+  --padding-86xl-3: 105.3px;
+  --padding-76xl-3: 95.3px;
+  --padding-31xl: 50px;
+  --padding-3xs-4: 9.4px;
+  --padding-2xs-6: 10.6px;
+  --padding-5xs-5: 7.5px;
+  --padding-8xs-3: 4.3px;
+  --padding-11xs-7: 1.7px;
+  --padding-9xs-1: 3.1px;
+  --padding-smi-5: 12.5px;
+  --padding-smi-7: 12.7px;
+  --padding-61xl: 80px;
+  --padding-46xl: 65px;
+  --padding-51xl: 70px;
+  --padding-15xl: 34px;
+  --padding-36xl: 55px;
+  --padding-40xl: 59px;
+
+  /* Border radiuses */
+  --br-7xs: 6px;
+  --br-11xs: 2px;
+  --br-8xs: 5px;
+  --br-5xs: 8px;
+  --br-9xs: 4px;
+  --br-3xs: 10px;
+  --br-6xs: 7px;
+  --br-10xs: 3px;
+}

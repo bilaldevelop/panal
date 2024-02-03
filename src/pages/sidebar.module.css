@@ -1,0 +1,19 @@
+.svgviewerPngOutput21Parent {
+    position: relative;
+    width: 68.4px;
+    height: 68.4px;
+    transform: rotate(0.98deg);
+    transform-origin: 0 0;
+    display: none;
+  }
+  .svgviewerPngOutput21Parent:active .svgviewerPngOutput21 {
+    display: flex;
+  }
+  .svgviewerPngOutput21Parent:active .svgviewerPngOutput1Icon {
+    display: none;
+  }
+  .deposit1:active .rectangleGroup,
+  .deposit1:hover .rectangleGroup,
+  .svgviewerPngOutput21Parent:active .rectangleParent {
+    display: flex;
+  }

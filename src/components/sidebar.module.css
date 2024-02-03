@@ -1,0 +1,288 @@
+.vectorIcon {
+    position: relative;
+    width: 10.5px;
+    height: 10.5px;
+  }
+  .account,
+  .dashboard1,
+  .divcss1i0ek3m {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .divcss1i0ek3m {
+    padding: var(--padding-11xs);
+    opacity: 0.5;
+  }
+  .account,
+  .dashboard1 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-9xs) var(--padding-xs);
+    background-color: var(
+      --bitbetwin-cc-account-1920x1080-default-linear-hollywood-cerise-kingfisher-daisy
+    );
+    align-self: stretch;
+    gap: var(--gap-5xs);
+  }
+  .account {
+    border-radius: var(--br-7xs);
+  }
+  .emailphone {
+    margin: 0;
+  }
+  .emailphoneChanging {
+    flex: 1;
+    position: relative;
+    font-size: var(--font-size-lg);
+    line-height: 29.25px;
+    font-family: var(
+      --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+    );
+    color: var(--color-aliceblue-200);
+    text-align: left;
+  }
+  .emailphoneChanging:hover,
+  .flashDeposit1:hover,
+  .messages:hover {
+    color: var(--color-plum-100);
+  }
+  .changePassword,
+  .email,
+  .emailVerification {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-4xs) var(--padding-xs);
+    background-color: var(
+      --bitbetwin-cc-account-1920x1080-default-linear-hollywood-cerise-kingfisher-daisy
+    );
+    align-self: stretch;
+    border-radius: var(--br-7xs);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-5xs);
+  }
+  .changePassword,
+  .email {
+    padding: var(--padding-4xs) var(--padding-0) var(--padding-4xs)
+      var(--padding-xs);
+  }
+  .changePassword {
+    padding: var(--padding-9xs) var(--padding-xs);
+    justify-content: flex-start;
+  }
+  .div,
+  .spanverificationCount,
+  .verification {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .div {
+    position: relative;
+    font-size: var(
+      --bitbetwin-cc-platforms-1536x864-default-iceland-regular-14-size
+    );
+    line-height: 22.75px;
+    font-weight: 500;
+    font-family: var(
+      --bitbetwin-cc-withdrawals-1536x864-default-poppins-regular-16
+    );
+    color: var(--bitbetwin-cc-withdrawals-1536x864-default-black);
+    text-align: center;
+    width: 8.7px;
+    height: 20px;
+    flex-shrink: 0;
+  }
+  .spanverificationCount,
+  .verification {
+    border-radius: var(--br-7xs);
+    background-color: var(--color-gold-300);
+    flex-direction: row;
+    padding: var(--padding-0) var(--padding-5xs);
+  }
+  .verification {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-5xs) var(--padding-xs);
+    background-color: var(
+      --bitbetwin-cc-account-1920x1080-default-linear-hollywood-cerise-kingfisher-daisy
+    );
+    align-self: stretch;
+    gap: var(--gap-2xs);
+  }
+  .div1,
+  .messages {
+    position: relative;
+    line-height: 29.25px;
+  }
+  .messages {
+    flex: 1;
+  }
+  .div1 {
+    justify-content: center;
+    width: 9.7px;
+    height: 18px;
+    flex-shrink: 0;
+  }
+  .div1,
+  .divcssQ7fb8o,
+  .message {
+    display: flex;
+    align-items: center;
+  }
+  .divcssQ7fb8o {
+    border-radius: var(--br-8xs);
+    background-color: var(--color-gold-300);
+    flex-direction: column;
+    justify-content: center;
+    padding: var(--padding-12xs) var(--padding-7xs);
+    text-align: center;
+    color: var(--bitbetwin-cc-withdrawals-1536x864-default-black);
+  }
+  .message {
+    align-self: stretch;
+    border-radius: var(--br-7xs);
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: var(--padding-5xs) var(--padding-xs);
+    gap: var(--gap-3xs);
+    cursor: pointer;
+    font-size: var(--font-size-lg);
+    color: var(--color-aliceblue-200);
+  }
+  .platforms {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: 0.3px;
+    line-height: 19.5px;
+    text-transform: uppercase;
+  }
+  .vectorIcon8 {
+    position: relative;
+    width: 9.2px;
+    height: 8.2px;
+  }
+  .divcss1i0ek3m8 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-7xs) var(--padding-11xs);
+    opacity: 0.5;
+  }
+  .divcss1i0ek3m9,
+  .divcss1i0ek3mParent,
+  .platform {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .divcss1i0ek3mParent {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-0) var(--padding-0) var(--padding-0) var(--padding-2xs);
+    background-color: var(
+      --bitbetwin-cc-account-1920x1080-default-linear-hollywood-cerise-kingfisher-daisy
+    );
+    align-self: stretch;
+    flex-direction: row;
+    gap: var(--gap-5xs);
+  }
+  .divcss1i0ek3m9,
+  .platform {
+    flex-direction: column;
+  }
+  .platform {
+    align-self: stretch;
+    padding: var(--padding-10xs) var(--padding-0);
+    gap: var(--gap-11xs);
+  }
+  .divcss1i0ek3m9 {
+    padding: var(--padding-7xs) var(--padding-11xs);
+    opacity: 0.5;
+  }
+  .flashDeposit1 {
+    flex: 1;
+    position: relative;
+    font-size: var(--font-size-lg);
+    line-height: 29.25px;
+    font-family: var(
+      --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+    );
+    color: var(--color-aliceblue-200);
+    text-align: left;
+    display: flex;
+    align-items: center;
+    height: 18px;
+  }
+  .flashgifIcon {
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .deposit,
+  .divh2dB1545c52 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .divh2dB1545c52 {
+    flex: 1;
+    justify-content: center;
+  }
+  .deposit {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-9xs) var(--padding-xs);
+    background-color: var(
+      --bitbetwin-cc-account-1920x1080-default-linear-hollywood-cerise-kingfisher-daisy
+    );
+    align-self: stretch;
+    border-radius: var(--br-7xs);
+    justify-content: flex-start;
+    gap: var(--gap-4xs);
+  }
+  .dashboard,
+  .finance,
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .finance {
+    align-self: stretch;
+    justify-content: center;
+    padding: var(--padding-10xs) var(--padding-0);
+    gap: var(--gap-11xs);
+  }
+  .dashboard,
+  .sidebar {
+    justify-content: flex-start;
+  }
+  .dashboard {
+    align-self: stretch;
+  }
+  .sidebar {
+    background: linear-gradient(90deg, #150749, #4c0358);
+    width: 240px;
+    height: 620px;
+    padding: var(--padding-0) var(--padding-xs);
+    box-sizing: border-box;
+    text-align: left;
+    font-size: var(--font-size-xs);
+    color: var(--color-lightsteelblue);
+    font-family: var(
+      --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+    );
+  }
+  @media screen and (max-width: 1200px) {
+    .sidebar {
+      display: none;
+    }
+  }
+  

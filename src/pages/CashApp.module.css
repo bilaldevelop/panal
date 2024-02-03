@@ -1,0 +1,1510 @@
+@keyframes shadow-drop-bottom {
+  0% {
+    box-shadow: 0 0 0 0 transparent;
+  }
+  to {
+    box-shadow: 0 12px 20px -12px rgb(0 0 0/35%);
+  }
+}
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+    transform-origin: center center;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    transform: scale(0.91);
+    animation-timing-function: ease-in;
+  }
+  17% {
+    transform: scale(0.98);
+    animation-timing-function: ease-out;
+  }
+  33% {
+    transform: scale(0.87);
+    animation-timing-function: ease-in;
+  }
+  45% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+}
+.logoIcon {
+  max-height: 100%;
+  width: 365.9px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.topMenuChild {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  background-color: var(--color-gainsboro-200);
+  transform: rotate(-0.33deg);
+  transform-origin: 0 0;
+}
+.phoneCallIconsvg {
+  position: relative;
+  width: 25.1px;
+  height: 25.1px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.navBusiness {
+  position: relative;
+  line-height: 24px;
+  width: 126px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.navBusiness,
+.signIn,
+.signIn1,
+.whatsapp {
+  display: flex;
+  align-items: center;
+}
+.whatsapp {
+  width: 161px;
+  height: 25px;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  cursor: pointer;
+}
+.signIn,
+.signIn1 {
+  flex-shrink: 0;
+}
+.signIn1 {
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 30px;
+  font-family: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+  );
+  color: var(--color-midnightblue-400);
+  text-align: center;
+  justify-content: center;
+  width: 53.3px;
+  height: 19px;
+}
+.signIn {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xs) var(--padding-0);
+  background-color: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-golden-dream
+  );
+  border-radius: var(--br-8xs);
+  box-shadow: 0 0 5px 2px #d8c72c;
+  width: 92.7px;
+  height: 36px;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.signIn:active,
+.signIn:hover,
+.signUp:active,
+.signUp:hover {
+  animation: 1s ease 0s infinite normal none shadow-drop-bottom;
+  opacity: 1;
+}
+.signUp1 {
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 30px;
+  font-family: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+  );
+  color: var(--bitbetwin-cc-account-1920x1080-default-nero);
+  text-align: center;
+  justify-content: center;
+  width: 60.1px;
+  height: 19px;
+  flex-shrink: 0;
+}
+.signInParent,
+.signUp,
+.signUp1,
+.user {
+  display: flex;
+  align-items: center;
+}
+.signUp {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xs) var(--padding-0);
+  background-color: var(--color-midnightblue-100);
+  border-radius: var(--br-8xs);
+  box-shadow: 0 0 10px 2px #6d04ee;
+  width: 92.7px;
+  height: 36px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.signInParent,
+.user {
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: var(--gap-9xl);
+}
+.user {
+  flex: 1;
+}
+.svgviewerPngOutput21 {
+  position: absolute;
+  top: 16.9px;
+  left: 16.3px;
+  width: 38px;
+  height: 38px;
+  object-fit: cover;
+  display: none;
+}
+.svgviewerPngOutput1Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 51px;
+  object-fit: cover;
+}
+.frame {
+  position: absolute;
+  top: 8.9px;
+  left: 9.3px;
+  width: 50px;
+  height: 50.7px;
+  overflow: hidden;
+}
+.frameChild {
+  position: relative;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-midnightblue-300);
+  box-shadow: 0 0 7px rgba(255, 255, 255, 0.51);
+  border: 1px solid var(--color-midnightblue-200);
+  box-sizing: border-box;
+  width: 283px;
+  height: 511px;
+  z-index: 0;
+}
+.games,
+.signInGroup {
+  margin: 0 !important;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  transform-origin: 0 0;
+}
+.signInGroup {
+  height: 6.42%;
+  width: 75.37%;
+  top: 4.93%;
+  right: 13.43%;
+  bottom: 88.65%;
+  left: 11.2%;
+  justify-content: flex-end;
+  gap: var(--gap-9xl);
+  transform: rotate(-0.76deg);
+  z-index: 1;
+}
+.games {
+  cursor: pointer;
+  border: 1px solid
+    var(--bitbetwin-cc-account-1920x1080-default-electric-violet);
+  padding: var(--padding-2xs) var(--padding-12xl);
+  background-color: var(
+    --bitbetwin-cc-account-1920x1080-default-linear-hollywood-cerise-kingfisher-daisy
+  );
+  height: 9.69%;
+  width: 85.41%;
+  top: 14.97%;
+  right: 6.78%;
+  bottom: 75.34%;
+  left: 7.81%;
+  border-radius: var(--br-8xs);
+  background: linear-gradient(90deg, rgba(21, 7, 73, 0.99), #4c0358);
+  box-shadow: 0 0 8px #8c8e91;
+  box-sizing: border-box;
+  justify-content: center;
+  transform: rotate(-0.09deg);
+  z-index: 2;
+}
+.games2:hover,
+.games3:hover,
+.games4:hover,
+.games5:hover,
+.games6:hover,
+.games7:hover,
+.games:hover {
+  animation: 1s ease 0s 1 normal none shadow-drop-bottom;
+  opacity: 1;
+}
+.promotions {
+  position: relative;
+  font-size: var(--font-size-3xl);
+  line-height: 33px;
+  font-family: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+  );
+  color: var(--bitbetwin-cc-account-1920x1080-default-nero);
+  text-align: left;
+}
+.games2 {
+  cursor: pointer;
+  border: 1px solid
+    var(--bitbetwin-cc-account-1920x1080-default-electric-violet);
+  padding: var(--padding-2xs) var(--padding-12xl);
+  background-color: var(
+    --bitbetwin-cc-account-1920x1080-default-linear-hollywood-cerise-kingfisher-daisy
+  );
+  margin: 0 !important;
+  height: 9.69%;
+  width: 85.41%;
+  top: 26.99%;
+  right: 6.71%;
+  bottom: 63.33%;
+  left: 7.88%;
+  border-radius: var(--br-8xs);
+  background: linear-gradient(90deg, rgba(21, 7, 73, 0.99), #4c0358);
+  box-shadow: 0 0 8px #8c8e91;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(-0.09deg);
+  z-index: 3;
+}
+.games2,
+.games3,
+.games4 {
+  position: absolute;
+  transform-origin: 0 0;
+}
+.games3 {
+  cursor: pointer;
+  border: 1px solid
+    var(--bitbetwin-cc-account-1920x1080-default-electric-violet);
+  padding: var(--padding-2xs) var(--padding-12xl);
+  background-color: var(
+    --bitbetwin-cc-account-1920x1080-default-linear-hollywood-cerise-kingfisher-daisy
+  );
+  margin: 0 !important;
+  height: 9.69%;
+  width: 85.41%;
+  top: 38.98%;
+  right: 6.61%;
+  bottom: 51.33%;
+  left: 7.99%;
+  border-radius: var(--br-8xs);
+  background: linear-gradient(90deg, rgba(21, 7, 73, 0.99), #4c0358);
+  box-shadow: 0 0 8px #8c8e91;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(-0.09deg);
+  z-index: 4;
+}
+.games4 {
+  top: 50.98%;
+  right: 6.54%;
+  bottom: 39.33%;
+  left: 8.06%;
+  z-index: 5;
+}
+.games4,
+.games5,
+.games6 {
+  cursor: pointer;
+  border: 1px solid
+    var(--bitbetwin-cc-account-1920x1080-default-electric-violet);
+  padding: var(--padding-2xs) var(--padding-12xl);
+  background-color: var(
+    --bitbetwin-cc-account-1920x1080-default-linear-hollywood-cerise-kingfisher-daisy
+  );
+  margin: 0 !important;
+  height: 9.69%;
+  width: 85.41%;
+  border-radius: var(--br-8xs);
+  background: linear-gradient(90deg, rgba(21, 7, 73, 0.99), #4c0358);
+  box-shadow: 0 0 8px #8c8e91;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(-0.09deg);
+}
+.games5 {
+  position: absolute;
+  top: 62.97%;
+  right: 6.47%;
+  bottom: 27.34%;
+  left: 8.13%;
+  transform-origin: 0 0;
+  z-index: 6;
+}
+.games6 {
+  top: 74.97%;
+  right: 6.36%;
+  bottom: 15.34%;
+  left: 8.23%;
+  z-index: 7;
+}
+.games6,
+.games7,
+.rectangleParent {
+  position: absolute;
+  transform-origin: 0 0;
+}
+.games7 {
+  cursor: pointer;
+  border: 1px solid
+    var(--bitbetwin-cc-account-1920x1080-default-electric-violet);
+  padding: var(--padding-2xs) var(--padding-12xl);
+  background-color: var(
+    --bitbetwin-cc-account-1920x1080-default-linear-hollywood-cerise-kingfisher-daisy
+  );
+  margin: 0 !important;
+  height: 9.69%;
+  width: 85.41%;
+  top: 86.99%;
+  right: 6.29%;
+  bottom: 3.33%;
+  left: 8.3%;
+  border-radius: var(--br-8xs);
+  background: linear-gradient(90deg, rgba(21, 7, 73, 0.99), #4c0358);
+  box-shadow: 0 0 8px #8c8e91;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(-0.09deg);
+  z-index: 8;
+}
+.rectangleParent {
+  top: 75.4px;
+  left: -222.4px;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  transform: rotate(-0.33deg);
+}
+.rectangleParent:hover {
+  animation: 1s ease 0s infinite normal none shadow-drop-bottom;
+  opacity: 1;
+}
+.svgviewerPngOutput21Parent {
+  position: relative;
+  width: 68.4px;
+  height: 68.4px;
+  transform: rotate(0.98deg);
+  transform-origin: 0 0;
+  display: none;
+}
+.svgviewerPngOutput21Parent:active .svgviewerPngOutput21 {
+  display: flex;
+}
+.svgviewerPngOutput21Parent:active .svgviewerPngOutput1Icon {
+  display: none;
+}
+.deposit1:active .rectangleGroup,
+.deposit1:hover .rectangleGroup,
+.svgviewerPngOutput21Parent:active .rectangleParent {
+  display: flex;
+}
+.games9,
+.topMenu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.topMenu {
+  align-self: stretch;
+  height: 96px;
+  flex-direction: row;
+  padding: var(--padding-0) var(--padding-sm);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  transform: rotate(0.33deg);
+  transform-origin: 0 0;
+  font-family: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-poppins-regular-16
+  );
+}
+.games9 {
+  position: absolute;
+  top: calc(50% - 11px);
+  left: calc(50% - 80.4px);
+  font-size: var(--font-size-3xl);
+  line-height: 33px;
+  font-family: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+  );
+  color: var(--bitbetwin-cc-account-1920x1080-default-nero);
+  text-align: center;
+  width: 160.4px;
+  height: 22px;
+}
+.games8 {
+  cursor: pointer;
+  border: 1px solid
+    var(--bitbetwin-cc-account-1920x1080-default-electric-violet);
+  padding: 0;
+  background-color: var(
+    --bitbetwin-cc-account-1920x1080-default-linear-hollywood-cerise-kingfisher-daisy
+  );
+  position: relative;
+  border-radius: var(--br-8xs);
+  background: linear-gradient(90deg, rgba(21, 7, 73, 0.99), #4c0358);
+  box-shadow: 0 0 8px #8c8e91;
+  box-sizing: border-box;
+  width: 128px;
+  height: 54px;
+}
+.dontHaveBtc1:hover,
+.games8:hover,
+.howDoesItWork:hover,
+.promotions1:hover {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.05),
+      rgba(255, 255, 255, 0.05)
+    ),
+    linear-gradient(90deg, rgba(21, 7, 73, 0.99), #4c0358);
+  animation: 1s ease 0s infinite normal none shadow-drop-bottom;
+  opacity: 1;
+}
+.promotions2 {
+  position: absolute;
+  top: calc(50% - 11px);
+  left: calc(50% - 110.5px);
+  font-size: var(--font-size-3xl);
+  line-height: 33px;
+  font-family: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+  );
+  color: var(--bitbetwin-cc-account-1920x1080-default-nero);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 221.7px;
+  height: 22px;
+}
+.promotions1 {
+  cursor: pointer;
+  border: 1px solid
+    var(--bitbetwin-cc-account-1920x1080-default-electric-violet);
+  padding: 0;
+  background-color: var(
+    --bitbetwin-cc-account-1920x1080-default-linear-hollywood-cerise-kingfisher-daisy
+  );
+  position: relative;
+  border-radius: var(--br-8xs);
+  background: linear-gradient(90deg, rgba(21, 7, 73, 0.99), #4c0358);
+  box-shadow: 0 0 8px #8c8e91;
+  box-sizing: border-box;
+  width: 169px;
+  height: 54px;
+}
+.howDoesIt1 {
+  position: absolute;
+  top: calc(50% - 11px);
+  left: calc(50% - 80.2px);
+  font-size: var(--font-size-3xl);
+  line-height: 33px;
+  font-family: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+  );
+  color: var(--bitbetwin-cc-account-1920x1080-default-nero);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 160.3px;
+  height: 22px;
+}
+.howDoesItWork {
+  cursor: pointer;
+  border: 1px solid
+    var(--bitbetwin-cc-account-1920x1080-default-electric-violet);
+  padding: 0;
+  background-color: var(
+    --bitbetwin-cc-account-1920x1080-default-linear-hollywood-cerise-kingfisher-daisy
+  );
+  position: relative;
+  border-radius: var(--br-8xs);
+  background: linear-gradient(90deg, rgba(21, 7, 73, 0.99), #4c0358);
+  box-shadow: 0 0 8px #8c8e91;
+  box-sizing: border-box;
+  width: 235.8px;
+  height: 54px;
+}
+.dontHaveBtc2 {
+  position: absolute;
+  top: calc(50% - 11px);
+  left: calc(50% - 111px);
+  font-size: var(--font-size-3xl);
+  line-height: 33px;
+  font-family: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+  );
+  color: var(--bitbetwin-cc-account-1920x1080-default-nero);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 221.7px;
+  height: 22px;
+}
+.dontHaveBtc1 {
+  cursor: pointer;
+  border: 1px solid
+    var(--bitbetwin-cc-account-1920x1080-default-electric-violet);
+  padding: 0;
+  background-color: var(
+    --bitbetwin-cc-account-1920x1080-default-linear-hollywood-cerise-kingfisher-daisy
+  );
+  position: relative;
+  border-radius: var(--br-8xs);
+  background: linear-gradient(90deg, rgba(21, 7, 73, 0.99), #4c0358);
+  box-shadow: 0 0 8px #8c8e91;
+  box-sizing: border-box;
+  width: 218px;
+  height: 54px;
+}
+.depositNow {
+  position: absolute;
+  top: 10.5px;
+  left: 33.8px;
+  font-size: 26.17px;
+  line-height: 33px;
+  font-family: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+  );
+  color: var(--bitbetwin-cc-account-1920x1080-default-nero);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 141.6px;
+}
+.svgIcon {
+  position: absolute;
+  top: 15px;
+  left: 175.4px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.button {
+  top: calc(50% - 27px);
+  left: calc(50% - 111px);
+  border-radius: var(--br-8xs);
+  background: linear-gradient(90deg, rgba(21, 7, 73, 0.99), #4c0358);
+  box-shadow: 0 0 8px #8c8e91;
+  border: 1px solid
+    var(--bitbetwin-cc-account-1920x1080-default-electric-violet);
+  width: 221.7px;
+  height: 54px;
+}
+.button,
+.frameItem,
+.games10,
+.games11 {
+  position: absolute;
+  box-sizing: border-box;
+}
+.frameItem {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-midnightblue-300);
+  box-shadow: 0 0 7px rgba(255, 255, 255, 0.51);
+  border: 1px solid var(--color-midnightblue-200);
+}
+.games10,
+.games11 {
+  cursor: pointer;
+  border: 1px solid
+    var(--bitbetwin-cc-account-1920x1080-default-electric-violet);
+  padding: var(--padding-2xs) var(--padding-12xl);
+  background-color: var(
+    --bitbetwin-cc-account-1920x1080-default-linear-hollywood-cerise-kingfisher-daisy
+  );
+  height: 31.65%;
+  width: 85.47%;
+  top: 14.39%;
+  right: 7.04%;
+  bottom: 53.96%;
+  left: 7.5%;
+  border-radius: var(--br-8xs);
+  background: linear-gradient(90deg, rgba(21, 7, 73, 0.99), #4c0358);
+  box-shadow: 0 0 8px #8c8e91;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.games10:hover,
+.games11:hover {
+  animation: 1s ease 0s 1 normal none shadow-drop-bottom;
+  opacity: 1;
+}
+.games11 {
+  top: 53.24%;
+  bottom: 15.11%;
+}
+.rectangleGroup {
+  position: absolute;
+  top: 62.1px;
+  left: -7px;
+  width: 282.8px;
+  height: 152.9px;
+  display: none;
+}
+.rectangleGroup:hover {
+  animation: 1s ease 0s infinite normal none shadow-drop-bottom;
+  opacity: 1;
+}
+.deposit1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(
+    --bitbetwin-cc-account-1920x1080-default-linear-hollywood-cerise-kingfisher-daisy
+  );
+  position: relative;
+  width: 222px;
+  height: 54px;
+  opacity: 1;
+}
+.deposit1.animate {
+  animation: 3s ease 0s infinite normal forwards pulsate;
+}
+.deposit1:hover {
+  background-color: var(--color-gray-300);
+  animation: 1s ease 0s 1 normal none shadow-drop-bottom;
+  opacity: 1;
+}
+.events1 {
+  position: absolute;
+  top: calc(50% - 16.5px);
+  left: calc(50% - 29.3px);
+  font-size: 22.06px;
+  line-height: 33px;
+  font-family: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+  );
+  color: var(--bitbetwin-cc-account-1920x1080-default-nero);
+  text-align: center;
+}
+.link {
+  cursor: pointer;
+  border: 1px solid
+    var(--bitbetwin-cc-account-1920x1080-default-electric-violet);
+  padding: 0;
+  background-color: var(
+    --bitbetwin-cc-account-1920x1080-default-linear-hollywood-cerise-kingfisher-daisy
+  );
+  position: relative;
+  border-radius: var(--br-8xs);
+  background: linear-gradient(90deg, rgba(254, 0, 152, 0.99), #4307a4);
+  box-shadow: 0 0 8px #8c8e90;
+  box-sizing: border-box;
+  width: 139px;
+  height: 54px;
+  opacity: 1;
+}
+.link.animate {
+  animation: 2s ease 0s infinite normal forwards pulsate;
+}
+.link:hover {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.05),
+      rgba(255, 255, 255, 0.05)
+    ),
+    linear-gradient(90deg, rgba(254, 0, 152, 0.99), #4307a4);
+  animation: 1s ease 0s infinite normal none shadow-drop-bottom;
+  opacity: 1;
+}
+.mainMenu {
+  margin: 0;
+  width: 1174px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.heading1,
+.heading2 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-weight: 400;
+  font-family: inherit;
+}
+.heading1 {
+  font-size: var(--font-size-61xl);
+  letter-spacing: 4px;
+  line-height: 120px;
+  text-transform: uppercase;
+  color: var(--bitbetwin-cc-account-1920x1080-default-nero);
+  text-align: center;
+  text-shadow: 0 0 0.92px rgba(250, 103, 1, 0.07),
+    0 0 1.83px rgba(250, 103, 1, 0.05), 0 0 2.29px rgba(255, 0, 84, 0.02),
+    0 0 2.52px rgba(255, 0, 84, 0.01);
+  -webkit-text-stroke: 2px #42006f;
+}
+.heading2 {
+  font-size: inherit;
+  line-height: 43.2px;
+}
+.heading2BuyAndSellBitcoWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.afterDownloadingThe {
+  margin: 0;
+}
+.afterDownloadingTheContainer,
+.listItem {
+  align-self: stretch;
+  position: relative;
+  line-height: 27px;
+}
+.listItem {
+  font-size: var(
+    --bitbetwin-cc-platforms-1536x864-default-iceland-regular-14-size
+  );
+  line-height: 21px;
+  font-family: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-poppins-regular-16
+  );
+}
+.afterDownloadingTheCashappParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+  font-size: var(--font-size-lg);
+  color: var(--bitbetwin-cc-withdrawals-1536x864-default-nero-92);
+}
+.support {
+  position: relative;
+  line-height: 19.2px;
+}
+.svgIcon1 {
+  align-self: stretch;
+  position: relative;
+  max-height: 100%;
+  width: 40px;
+}
+.link1 {
+  border-radius: var(--br-7xs);
+  background-color: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-golden-dream
+  );
+  box-shadow: 0 0 10px 5px #d8c72c;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-8xs) var(--padding-base);
+  gap: var(--gap-6xs);
+  font-size: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16-size
+  );
+  color: var(--bitbetwin-cc-withdrawals-1536x864-default-black);
+}
+.link1:hover,
+.link2:hover,
+.link3:hover,
+.link4:hover,
+.link5:hover {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0.2)
+    ),
+    #efca39;
+}
+.frameParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xl);
+}
+.articleIcon {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.section {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background: linear-gradient(90deg, #232c64, #5b178a);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-31xl) var(--padding-13xl);
+  gap: var(--gap-14xl);
+  font-size: var(
+    --bitbetwin-cc-custom-user-verification-1536x864-default-iceland-regular-36-size
+  );
+}
+.afterCheckingThe,
+.heading21 {
+  align-self: stretch;
+  position: relative;
+}
+.heading21 {
+  margin: 0;
+  font-size: var(
+    --bitbetwin-cc-custom-user-verification-1536x864-default-iceland-regular-36-size
+  );
+  line-height: 43.2px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.afterCheckingThe {
+  line-height: 24px;
+}
+.afterDownloadingTheCashAppParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: var(--bitbetwin-cc-withdrawals-1536x864-default-nero-92);
+}
+.svgIcon2 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.heading2BuyingBtcParent,
+.link2 {
+  display: flex;
+  justify-content: flex-start;
+}
+.link2 {
+  border-radius: var(--br-7xs);
+  background-color: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-golden-dream
+  );
+  box-shadow: 0 0 10px 5px #d8c72c;
+  width: 139px;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-3xs) var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-6xs);
+  color: var(--bitbetwin-cc-withdrawals-1536x864-default-black);
+}
+.heading2BuyingBtcParent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-11xl);
+}
+.byFollowingTheFewEasyStepParent,
+.section1 {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.section1 {
+  border-radius: var(--br-3xs);
+  background: linear-gradient(90deg, #232c64, #5b178a);
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-31xl) var(--padding-13xl);
+  gap: var(--gap-13xl);
+}
+.byFollowingTheFewEasyStepParent {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-base);
+  font-size: var(--font-size-lg);
+  color: var(--bitbetwin-cc-withdrawals-1536x864-default-nero-92);
+}
+.support1,
+.svgIcon3 {
+  position: relative;
+  height: 16px;
+  flex-shrink: 0;
+}
+.support1 {
+  line-height: 19.2px;
+  display: flex;
+  align-items: center;
+  width: 50.9px;
+}
+.svgIcon3 {
+  width: 16px;
+  overflow: hidden;
+}
+.link3 {
+  border-radius: var(--br-7xs);
+  background-color: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-golden-dream
+  );
+  box-shadow: 0 0 10px 5px #d8c72c;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-base);
+  gap: var(--gap-6xs);
+  font-size: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16-size
+  );
+  color: var(--bitbetwin-cc-withdrawals-1536x864-default-black);
+}
+.heading23,
+.section2 {
+  align-self: stretch;
+  font-size: var(
+    --bitbetwin-cc-custom-user-verification-1536x864-default-iceland-regular-36-size
+  );
+}
+.section2 {
+  border-radius: var(--br-3xs);
+  background: linear-gradient(90deg, #232c64, #5b178a);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-31xl) var(--padding-13xl);
+}
+.heading23 {
+  margin: 0;
+  position: relative;
+  line-height: 43.2px;
+  font-weight: 400;
+  font-family: inherit;
+  color: var(--bitbetwin-cc-bonuses-1536x864-default-1-green);
+}
+.heading2HowToReceiveAndParent,
+.link4 {
+  display: flex;
+  justify-content: flex-start;
+}
+.link4 {
+  border-radius: var(--br-7xs);
+  background-color: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-golden-dream
+  );
+  box-shadow: 0 0 10px 5px #d8c72c;
+  width: 139px;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-3xs) var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-6xs);
+  cursor: pointer;
+  color: var(--bitbetwin-cc-withdrawals-1536x864-default-black);
+}
+.heading2HowToReceiveAndParent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-16xl);
+}
+.section3,
+.toFreelyEnjoyTheCryptoTraParent {
+  align-self: stretch;
+  display: flex;
+  color: var(--bitbetwin-cc-withdrawals-1536x864-default-nero-92);
+}
+.section3 {
+  border-radius: var(--br-3xs);
+  background: linear-gradient(90deg, #232c64, #5b178a);
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-31xl) var(--padding-13xl);
+  gap: var(--gap-13xl);
+}
+.toFreelyEnjoyTheCryptoTraParent {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-4xs);
+}
+.svgIcon5 {
+  align-self: stretch;
+  position: relative;
+  max-height: 100%;
+  width: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.link5,
+.section4 {
+  display: flex;
+  flex-direction: row;
+}
+.link5 {
+  border-radius: var(--br-7xs);
+  background-color: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-golden-dream
+  );
+  box-shadow: 0 0 10px 5px #d8c72c;
+  overflow: hidden;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-base) var(--padding-2xs);
+  gap: var(--gap-6xs);
+  color: var(--bitbetwin-cc-withdrawals-1536x864-default-black);
+}
+.section4 {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background: linear-gradient(90deg, #232c64, #5b178a);
+  align-items: flex-start;
+  justify-content: center;
+  padding: 54px var(--padding-13xl);
+}
+.heading1CashAppParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+  font-size: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16-size
+  );
+  color: var(--bitbetwin-cc-bonuses-1536x864-default-1-green);
+}
+.frameInner,
+.heading25 {
+  align-self: stretch;
+  position: relative;
+}
+.frameInner {
+  flex: 1;
+  background-color: var(--color-gainsboro-200);
+}
+.heading25 {
+  font-size: var(--font-size-13xl);
+  line-height: 31px;
+  color: var(--color-goldenrod-100);
+}
+.linkGames {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+.linkBlog:hover,
+.linkFlash:hover,
+.linkGames:hover {
+  color: var(--color-plum-100);
+}
+.linkBlog,
+.linkFlash,
+.linkGames {
+  align-self: stretch;
+  position: relative;
+  line-height: 27px;
+}
+.linkFlash {
+  cursor: pointer;
+}
+.heading2PlatformsParent,
+.linkGoldenParent,
+.pages,
+.promotions3 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lgi);
+}
+.heading2PlatformsParent,
+.linkGoldenParent,
+.promotions3 {
+  justify-content: center;
+  gap: var(--gap-mini);
+}
+.heading2PlatformsParent,
+.linkGoldenParent {
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.linkGoldenParent {
+  padding: var(--padding-14xl) var(--padding-0) var(--padding-0);
+  gap: var(--gap-8xs);
+}
+.fishnetLogo2Icon {
+  position: relative;
+  width: 236px;
+  height: 132px;
+  object-fit: cover;
+}
+.footerLogo {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.dogeIcon,
+.vectorIcon {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.dogeIcon {
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.vectorParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-smi);
+}
+.footerWhatsappChild {
+  position: relative;
+  width: 29.8px;
+  height: 30px;
+}
+.businessHoursMondaySunday {
+  position: relative;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 124px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.footerWhatsapp {
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.backgroundIcon {
+  position: relative;
+  width: 119.5px;
+  height: 69.2px;
+  z-index: 0;
+}
+.groupIcon,
+.vectorIcon1,
+.vectorIcon2,
+.vectorIcon3,
+.vectorIcon4 {
+  position: absolute;
+  height: 55.56%;
+  width: 16.07%;
+  top: 0;
+  right: 83.93%;
+  bottom: 44.44%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.groupIcon,
+.vectorIcon2,
+.vectorIcon3,
+.vectorIcon4 {
+  right: 62.95%;
+  left: 20.98%;
+}
+.groupIcon,
+.vectorIcon3,
+.vectorIcon4 {
+  right: 41.97%;
+  left: 41.97%;
+}
+.groupIcon,
+.vectorIcon4 {
+  right: 20.98%;
+  left: 62.95%;
+}
+.groupIcon {
+  right: 0;
+  left: 83.93%;
+}
+.ratings,
+.stars {
+  position: absolute;
+  top: 76.19%;
+  left: 21.42%;
+}
+.stars {
+  margin: 0 !important;
+  top: 22.8px;
+  left: 14.1px;
+  width: 91.5px;
+  height: 25.2px;
+  z-index: 1;
+  font-size: 6.49px;
+}
+.verifiedByLivechat {
+  height: 8.32%;
+  width: 40.03%;
+  top: 82.66%;
+  left: 41.69%;
+  color: var(--bitbetwin-cc-account-1920x1080-default-nero);
+  text-align: left;
+  z-index: 2;
+}
+.excellentService,
+.mar2023,
+.verifiedByLivechat {
+  position: absolute;
+  margin: 0 !important;
+  display: inline-block;
+}
+.mar2023 {
+  height: 8.32%;
+  width: 20.85%;
+  top: 82.66%;
+  left: 11.46%;
+  color: var(--bitbetwin-cc-account-1920x1080-default-nero);
+  text-align: left;
+  z-index: 3;
+}
+.excellentService {
+  height: 9.71%;
+  width: 51.66%;
+  top: 11.65%;
+  left: 23.59%;
+  font-size: 7.57px;
+  z-index: 4;
+}
+.footerRight,
+.reviews {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.reviews {
+  overflow: hidden;
+  padding: var(--padding-11xs) var(--padding-12xs);
+  position: relative;
+  text-align: center;
+  font-size: 5.95px;
+  color: var(--color-darkslategray-200);
+  font-family: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+  );
+}
+.footerRight {
+  flex: 1;
+  font-size: var(--font-size-mini);
+  font-family: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-poppins-regular-16
+  );
+}
+.rectangleDiv {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  background-color: var(--color-gainsboro-100);
+  opacity: 0;
+}
+.rectangleContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-11xs);
+}
+.sectionLinkImage,
+.sectionLinkImage1 {
+  position: relative;
+  width: 77px;
+  height: 90px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.sectionLinkImage:hover {
+  width: 77px;
+}
+.footerLogos {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-17xl);
+}
+.allRightsReserved,
+.div,
+.fishnetwin {
+  position: relative;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 143.3px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.div,
+.fishnetwin {
+  width: 33.6px;
+}
+.fishnetwin {
+  width: 82px;
+}
+.creditBar {
+  align-self: stretch;
+  background-color: var(--color-gray-100);
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-xl);
+  box-sizing: border-box;
+  font-size: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16-size
+  );
+  color: var(--bitbetwin-cc-withdrawals-1536x864-default-nero-92);
+}
+.cashApp,
+.divbody,
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: var(--padding-0) var(--padding-11xl);
+  gap: var(--gap-11xl);
+  font-size: var(--font-size-lg);
+}
+.cashApp,
+.divbody {
+  justify-content: center;
+}
+.divbody {
+  align-self: stretch;
+  background: linear-gradient(180deg, #130121, #1a014e);
+  overflow: hidden;
+  padding: var(--padding-lg) var(--padding-46xl) var(--padding-0);
+  gap: var(--gap-11xl);
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--bitbetwin-cc-account-1920x1080-default-nero);
+  font-family: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+  );
+}
+.cashApp {
+  position: relative;
+  background-color: var(--bitbetwin-cc-withdrawals-1536x864-default-mirage);
+  width: 100%;
+}
+@media screen and (max-width: 1200px) {
+  .svgviewerPngOutput1Icon,
+  .svgviewerPngOutput21Parent {
+    display: flex;
+  }
+  .mainMenu {
+    display: none;
+  }
+  .frameParent {
+    flex: unset;
+    align-self: stretch;
+  }
+  .section {
+    flex-direction: column;
+  }
+  .heading2BuyingBtcParent {
+    flex: unset;
+    align-self: stretch;
+  }
+  .section1,
+  .section2 {
+    flex-direction: column;
+  }
+  .heading2HowToReceiveAndParent {
+    flex: unset;
+    align-self: stretch;
+  }
+  .section3,
+  .section4 {
+    flex-direction: column;
+  }
+  .footerLogos,
+  .frameInner,
+  .pages,
+  .rectangleDiv {
+    display: none;
+  }
+}
+@media screen and (max-width: 960px) {
+  .link {
+    display: flex;
+  }
+  .articleIcon,
+  .footerRight {
+    display: none;
+  }
+}
+@media screen and (max-width: 720px) {
+  .whatsapp {
+    display: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  .promotions3,
+  .signIn,
+  .signUp {
+    display: none;
+  }
+}

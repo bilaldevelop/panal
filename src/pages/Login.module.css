@@ -1,0 +1,420 @@
+.fishnetLogo3Icon {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 685px;
+  object-fit: cover;
+}
+.login1 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.9px;
+  line-height: 43.2px;
+  text-transform: uppercase;
+  text-shadow: 0 0 8px rgba(250, 103, 1, 0.6), 0 0 16px rgba(250, 103, 1, 0.4),
+    0 0 20px rgba(255, 0, 84, 0.2), 0 0 22px rgba(255, 0, 84, 0.1);
+}
+.heading1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.groupLabel {
+  position: relative;
+  font-size: var(
+    --bitbetwin-cc-platforms-1536x864-default-iceland-regular-14-size
+  );
+  line-height: 21px;
+  font-family: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-18
+  );
+  color: var(--color-lightsteelblue);
+  text-align: left;
+}
+.frame,
+.groupInput {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.groupInput {
+  border: 1px solid var(--bitbetwin-cc-withdrawals-1536x864-default-nero-16);
+  font-family: var(--bitbetwin-cc-withdrawals-1536x864-default-poppins-regular-16);
+  font-size: var(--bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16-size);
+  background-color: var(--bitbetwin-cc-account-1920x1080-default-linear-hollywood-cerise-kingfisher-daisy);
+  border-radius: var(--br-7xs);
+  box-sizing: border-box;
+  max-width: 384px;
+  width: 384px;
+  height: 40px;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-mid);
+  color: white; /* Set text color to white */
+}
+
+.frame {
+  overflow: hidden;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.groupLabel1 {
+  position: relative;
+  font-size: var(
+    --bitbetwin-cc-platforms-1536x864-default-iceland-regular-14-size
+  );
+  line-height: 21px;
+  font-family: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+  );
+  color: var(--color-lightsteelblue);
+  text-align: left;
+  /* width: 53.8px; */
+  height: 21px;
+  flex-shrink: 0;
+}
+.frame2,
+.groupLabel1,
+.groupLink {
+  display: flex;
+  align-items: center;
+}
+.groupLink {
+  position: relative;
+  font-size: var(
+    --bitbetwin-cc-platforms-1536x864-default-iceland-regular-14-size
+  );
+  line-height: 21px;
+  font-family: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+  );
+  color: var(--bitbetwin-cc-withdrawals-1536x864-default-golden-dream);
+  text-align: center;
+  justify-content: center;
+  /* width: 101.5px; */
+  height: 14px;
+  flex-shrink: 0;
+}
+.groupLink:hover {
+  color: var(--color-plum-100);
+}
+.frame2 {
+  align-self: stretch;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 228px;
+}
+.groupInput1 {
+  border: 1px solid var(--bitbetwin-cc-withdrawals-1536x864-default-nero-16);
+  background-color: var(--bitbetwin-cc-account-1920x1080-default-linear-hollywood-cerise-kingfisher-daisy);
+  position: relative;
+  border-radius: var(--br-7xs);
+  box-sizing: border-box;
+  width: 384px;
+  height: 40px;
+  color: #ffffff; /* This sets the text color to white */
+}
+
+.password {
+  position: relative;
+  font-size: var(--bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16-size);
+  font-family: var(--bitbetwin-cc-withdrawals-1536x864-default-poppins-regular-16);
+  color: white; /* Updated color to white */
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 77.3px;
+  height: 23px;
+  flex-shrink: 0;
+}
+
+.divplaceholder {
+  width: 350px;
+  height: 25px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: -32px;
+}
+.frame3,
+.signIn {
+  align-self: stretch;
+}
+.frame3 {
+  height: 41.8px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.signIn {
+  position: relative;
+  font-size: var(
+    --bitbetwin-cc-platforms-1536x864-default-iceland-regular-14-size
+  );
+  line-height: 16.8px;
+  font-family: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+  );
+  color: var(--bitbetwin-cc-account-1920x1080-default-nero);
+  text-align: center;
+}
+.button,
+.form,
+.frame1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: 12.5899658203125px var(--padding-0);
+  background-color: var(--bitbetwin-cc-withdrawals-1536x864-default-corn);
+  align-self: stretch;
+  border-radius: var(--br-7xs);
+}
+.button:hover {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0.2)
+    ),
+    #dbb800;
+}
+.form,
+.frame1 {
+  gap: var(--gap-5xs);
+}
+.frame1 {
+  overflow: hidden;
+}
+.form {
+  width: 384px;
+  height: 198px;
+}
+.doNotHave {
+  flex: 1;
+  position: relative;
+  line-height: 21px;
+}
+.divcss1aiww0l,
+.linkRegister {
+  font-size: var(
+    --bitbetwin-cc-platforms-1536x864-default-iceland-regular-14-size
+  );
+}
+.linkRegister {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(
+    --bitbetwin-cc-account-1920x1080-default-linear-hollywood-cerise-kingfisher-daisy
+  );
+  flex: 1;
+  position: relative;
+  line-height: 21px;
+  font-family: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+  );
+  color: var(--bitbetwin-cc-withdrawals-1536x864-default-golden-dream);
+  text-align: left;
+  display: inline-block;
+}
+.linkRegister:hover {
+  color: var(--color-plum-100);
+}
+.divcss1aiww0l {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-6xs);
+  text-align: right;
+  color: var(--bitbetwin-cc-account-1920x1080-default-nero);
+}
+.divchakraStack {
+  width: 553.3px;
+  flex-direction: column;
+  gap: var(--gap-13xl);
+}
+.body,
+.divchakraStack,
+.divcss10786v4,
+.fishnetLogo3Parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.divcss10786v4 {
+  border-radius: var(--br-5xs);
+  background-color: rgba(10, 1, 25, 0.66);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-21xl) var(--padding-0);
+}
+.body,
+.fishnetLogo3Parent {
+  align-self: stretch;
+}
+.fishnetLogo3Parent {
+  flex-direction: row;
+  padding: var(--padding-0) 105px;
+  gap: var(--gap-3xs);
+}
+.body {
+  flex-direction: column;
+  padding: var(--padding-31xl) var(--padding-0);
+  background-image: url(/public/body@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: center;
+  font-size: 50px;
+  color: var(--color-orangered-100);
+  font-family: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+  );
+}
+.sectionLinkImage,
+.sectionLinkImage1 {
+  position: relative;
+  width: 77px;
+  height: 90px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.sectionLinkImage:hover {
+  width: 77px;
+}
+.footerLogos {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-17xl);
+}
+.allRightsReserved,
+.div,
+.fishnetwin {
+  position: relative;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  width: 143.3px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.div,
+.fishnetwin {
+  width: 33.6px;
+}
+.fishnetwin {
+  width: 82px;
+}
+.creditBar {
+  align-self: stretch;
+  background-color: var(--color-gray-100);
+  height: 44px;
+  width: 105%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-xl);
+  box-sizing: border-box;
+}
+.divbody,
+.footer,
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: var(--padding-0) var(--padding-11xl);
+  gap: var(--gap-11xl);
+}
+.divbody,
+.login {
+  justify-content: center;
+}
+.divbody {
+  align-self: stretch;
+  background: linear-gradient(180deg, #130121, #1a014e);
+  overflow: hidden;
+  /* padding: var(--padding-8xl) var(--padding-0) var(--padding-0); */
+  gap: var(--gap-7xl);
+  text-align: left;
+  font-size: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16-size
+  );
+  color: var(--bitbetwin-cc-withdrawals-1536x864-default-nero-92);
+  font-family: var(
+    --bitbetwin-cc-withdrawals-1536x864-default-iceland-regular-16
+  );
+}
+.login {
+  position: relative;
+  background-color: var(--bitbetwin-cc-withdrawals-1536x864-default-mirage);
+  width: 100%;
+}
+@media screen and (max-width: 1200px) {
+  .fishnetLogo3Icon,
+  .footerLogos {
+    display: none;
+  }
+.fishnetLogo3Parent {
+  padding: 20px;
+}
+}
+@media screen and (max-width: 960px) {
+  .fishnetLogo3Icon {
+    display: none;
+  }
+}
+@media screen and (max-width: 425px) {
+  .groupInput {
+    width: 300px;
+  }
+  .groupInput1{
+    width: 300px;
+  }
+  .frame1{
+    width: 300px;
+  }
+  .groupLink{
+    right: 100px;
+  }
+}
+@media screen and (max-width: 325px) {
+  .groupInput {
+    width: 250px;
+  }
+  .groupInput1{
+    width: 250px;
+  }
+  .frame1{
+    width: 250px;
+  }
+  .groupLink{
+    right: 120px;
+  }
+}
+
